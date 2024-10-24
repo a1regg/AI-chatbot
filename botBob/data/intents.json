@@ -1,0 +1,3565 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": {
+                "en": [
+                    "hello", "hi", "hey there", "good day", "morning", "what's up", "howdy", "greetings", 
+                    "what's going on?", "salutations", "how's everything?", "what's new with you?", 
+                    "pleased to meet you", "good afternoon", "good evening", "what's happening?", 
+                    "how's it going?", "long time no see", "nice to see you", "what's the good word?", 
+                    "how have you been?", "yo", "sup", "hey!", "hiya", "how's life?", "what's cooking?", 
+                    "how's your day?", "what's the latest?", "how are you doing?", "what's shaking?", 
+                    "greetings and salutations", "how's tricks?", "what's the scoop?"
+                ],
+                "uk": [
+                    "привіт", "привітання", "ей", "доброго дня", "доброго ранку", "як справи?", 
+                    "привіт, як ти?", "вітаю", "що нового?", "салют", "як у тебе справи?", 
+                    "приємно познайомитися", "доброго вечора", "доброго часу доби", "що відбувається?", 
+                    "як у тебе справи?", "давно не бачились", "приємно вас бачити", "які новини?", 
+                    "як ти поживаєш?", "йо", "привіт, як справи?", "привіт, що нового?", 
+                    "привіт, як ти?" , "як життя?", "що готуєш?", "як твій день?", 
+                    "які новини?", "як справи у тебе?", "що нового в житті?", "як твої справи?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "Hello! How can I assist you today?", "Greetings! What can I do for you?", 
+                    "Hi there! How may I help you?", "Hey! What's on your mind?", 
+                    "Salutations! How can I be of service?", "Good to see you! How can I help?", 
+                    "Hi! What brings you here today?", "Hello! What can I do for you?", 
+                    "Hey there! How's your day going?", "Hi! Anything specific you need help with?", 
+                    "Hello! I'm here to assist you.", "Greetings! How can I make your day better?", 
+                    "Hey! What would you like to talk about?", "Hi! How can I brighten your day?", 
+                    "Hello! What questions do you have?", "Hi! I'm all ears!", 
+                    "Hey! Let's chat about whatever you like.", "Greetings! How can I help you today?", 
+                    "Hello! What’s on your mind?", "Hi! Ready to assist you with anything."
+                ],
+                "uk": [
+                    "Привіт! Чим можу допомогти сьогодні?", "Вітаю! Що можу зробити для вас?", 
+                    "Привіт! Як я можу вам допомогти?", "Ей! Що у вас на думці?", 
+                    "Салют! Як я можу бути корисним?", "Радий вас бачити! Чим можу допомогти?", 
+                    "Привіт! Що вас сюди привело?", "Привіт! Чим можу вам допомогти?", 
+                    "Привіт! Як проходить ваш день?", "Привіт! Чи є щось конкретне, з чим я можу допомогти?", 
+                    "Привіт! Я тут, щоб допомогти вам.", "Вітаю! Як я можу зробити ваш день кращим?", 
+                    "Ей! Про що ви хочете поговорити?", "Привіт! Як я можу підняти вам настрій?", 
+                    "Привіт! Які у вас запитання?", "Привіт! Я вас слухаю!", 
+                    "Ей! Давайте поговоримо про що завгодно.", "Вітаю! Чим можу допомогти сьогодні?", 
+                    "Привіт! Що у вас на думці?", "Привіт! Готовий допомогти з будь-чим."
+                ]
+            }
+        },
+
+        {
+        "tag": "farewells",
+        "patterns": {
+            "en": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "take care",
+                "catch you later",
+                "farewell",
+                "see you soon",
+                "until next time",
+                "have a great day",
+                "stay safe",
+                "later",
+                "I'm off",
+                "peace out",
+                "so long",
+                "adios",
+                "ciao",
+                "take it easy",
+                "I'm heading out",
+                "good night",
+                "have a good one",
+                "see you around",
+                "until we meet again",
+                "keep in touch",
+                "I'm signing off",
+                "time to go",
+                "I need to run",
+                "it's time for me to leave",
+                "I’ll catch you later",
+                "I’m outta here",
+                "goodbye for now",
+                "I’ll see you when I see you"
+            ],
+            "uk": [
+                "бувай",
+                "до побачення",
+                "побачимось пізніше",
+                "бережи себе",
+                "на все добре",
+                "до зустрічі",
+                "побачимось незабаром",
+                "до наступного разу",
+                "гарного дня",
+                "бережіть себе",
+                "пока",
+                "я йду",
+                "всього найкращого",
+                "до скорої зустрічі",
+                "на добраніч",
+                "до зустрічі знову",
+                "побачимось",
+                "все буде добре",
+                "до нових зустрічей",
+                "до побачення на деякий час",
+                "беріть себе в руки",
+                "я пішов",
+                "до побачення, друже",
+                "на все добре, до зустрічі",
+                "побачимось, бережіть себе",
+                "до нових зустрічей, друже"
+            ]
+        },
+        "responses": {
+            "en": [
+                "Goodbye! Have a wonderful day ahead!",
+                "See you later! Take care of yourself!",
+                "Farewell! Looking forward to our next conversation!",
+                "Goodbye! Stay safe and healthy!",
+                "Catch you later! Until next time!",
+                "Take care! Wishing you all the best!",
+                "So long! Don’t be a stranger!",
+                "Adios! Hope to chat again soon!",
+                "Ciao! Enjoy the rest of your day!",
+                "Good night! Sleep well!",
+                "See you around! Keep smiling!",
+                "Until we meet again! Stay awesome!",
+                "Take it easy! Looking forward to our next chat!",
+                "I’m signing off! Have a great one!",
+                "Peace out! Stay cool!",
+                "Goodbye for now! I’ll miss our chats!",
+                "I’ll catch you later! Stay safe!",
+                "Time to go! Take care!",
+                "I need to run! Talk to you soon!",
+                "I’m outta here! Have a fantastic day!",
+                "See you when I see you! Keep in touch!"
+            ],
+            "uk": [
+                "До побачення! Гарного дня!",
+                "Побачимось пізніше! Бережи себе!",
+                "До зустрічі! Чекаю на нашу наступну розмову!",
+                "До побачення! Бережіть себе та будьте здорові!",
+                "На все добре! До наступного разу!",
+                "Бережіть себе! Бажаю всього найкращого!",
+                "До скорої зустрічі! Не зникайте!",
+                "На добраніч! Гарних снів!",
+                "До зустрічі! Сподіваюся, скоро побачимось!",
+                "Побачимось! Тримайтеся!",
+                "До нових зустрічей! Будьте чудовими!",
+                "На все добре! Сподіваюся, скоро поговоримо!",
+                "Я йду! Гарного дня!",
+                "До побачення, друже! Бережи себе!",
+                "На все добре! Сподіваюся, скоро побачимось!",
+                "Побачимось, бережіть себе! Бажаю удачі!",
+                "До нових зустрічей, друже! Тримайтеся!"
+            ]
+        }
+    },
+    {
+        "tag": "thanks",
+        "patterns": {
+            "en": [
+                "thank you",
+                "thanks",
+                "I appreciate it",
+                "many thanks",
+                "thanks a lot",
+                "thank you very much",
+                "I'm grateful",
+                "I owe you one",
+                "thanks for your help",
+                "thank you for your support",
+                "I can't thank you enough",
+                "you've been a great help",
+                "I really appreciate your assistance",
+                "thanks for everything",
+                "I'm so thankful",
+                "thank you for your kindness",
+                "I appreciate your time",
+                "thanks for being there",
+                "thank you for your guidance",
+                "I truly appreciate it",
+                "thanks for your understanding"
+            ],
+            "uk": [
+                "дякую",
+                "спасибі",
+                "вдячний",
+                "дуже дякую",
+                "дякую велике",
+                "я вдячний",
+                "я тобі зобов'язаний",
+                "дякую за допомогу",
+                "дякую за вашу підтримку",
+                "не можу вам достатньо подякувати",
+                "ви були великою допомогою",
+                "я справді ціную вашу допомогу",
+                "дякую за все",
+                "я дуже вдячний",
+                "дякую за вашу доброту",
+                "я ціную ваш час",
+                "дякую, що були поруч",
+                "дякую за ваше керівництво",
+                "я щиро вдячний",
+                "дякую за ваше розуміння"
+            ]
+        },
+        "responses": {
+            "en": [
+                "You're welcome! I'm glad to assist you.",
+                "No problem! I'm here to help whenever you need.",
+                "Happy to help! Let me know if there's anything else.",
+                "Anytime! Your satisfaction is my priority.",
+                "I'm pleased to assist! Don't hesitate to reach out again.",
+                "It was my pleasure! I'm here for you.",
+                "Glad I could help! If you need anything else, just ask.",
+                "You're very welcome! I'm always here to support you.",
+                "No worries! I'm happy to help out.",
+                "Anytime! Your appreciation means a lot.",
+                "I'm here to help! Just let me know what you need.",
+                "You're welcome! I'm just doing my job.",
+                "I'm delighted to assist! Feel free to ask more.",
+                "It's my pleasure! I'm glad I could be of service.",
+                "You're welcome! I'm always ready to help.",
+                "No trouble at all! I'm here for you.",
+                "I'm happy to help! Your gratitude is appreciated.",
+                "You're welcome! Let me know if there's anything else I can do.",
+                "I'm here to help! Your satisfaction is important to me.",
+                "You're welcome! I'm just a message away."
+            ],
+            "uk": [
+                "Будь ласка! Я радий допомогти.",
+                "Немає за що! Я тут, щоб допомогти, коли вам потрібно.",
+                "Радий допомогти! Дайте знати, якщо потрібно ще щось.",
+                "Завжди радий допомогти! Ваше задоволення - моя пріоритет.",
+                "Я радий допомогти! Не соромтеся звертатися знову.",
+                "Це було моє задоволення! Я тут для вас.",
+                "Радий, що зміг допомогти! Якщо вам потрібно ще щось, просто запитайте.",
+                "Будь ласка! Я завжди тут, щоб підтримати вас.",
+                "Без проблем! Я радий допомогти.",
+                "Завжди будь ласка! Ваша вдячність багато значить.",
+                "Я тут, щоб допомогти! Просто дайте знати, що вам потрібно.",
+                "Будь ласка! Я просто виконую свою роботу.",
+                "Я радий допомогти! Не соромтеся запитувати більше.",
+                "Це було моє задоволення! Я радий, що зміг бути корисним.",
+                "Будь ласка! Я завжди готовий допомогти.",
+                "Немає за що! Я тут для вас.",
+                "Я радий допомогти! Ваша вдячність цінується.",
+                "Будь ласка! Дайте знати, якщо я можу ще чимось допомогти.",
+                "Я тут, щоб допомогти! Ваше задоволення важливе для мене.",
+                "Будь ласка! Я завжди на зв'язку."]
+           
+        }
+    },
+    {
+        "tag": "help",
+        "patterns": {
+            "en": [
+                "help", 
+                "can you help me?", 
+                "I need assistance", 
+                "support", 
+                "I need help", 
+                "could you assist me?", 
+                "I'm looking for help", 
+                "I require guidance", 
+                "can you provide support?", 
+                "I’m in trouble", 
+                "I need some advice", 
+                "please help me", 
+                "I’m feeling lost", 
+                "I don’t know what to do", 
+                "I need someone to talk to", 
+                "can you guide me?", 
+                "I’m overwhelmed", 
+                "I need clarification", 
+                "I’m struggling", 
+                "I need direction", 
+                "I’m confused"
+            ],
+            "uk": [
+                "допомога", 
+                "ти можеш мені допомогти?", 
+                "мені потрібна допомога", 
+                "підтримка", 
+                "мені потрібна допомога", 
+                "ти можеш мені допомогти?", 
+                "я шукаю допомогу", 
+                "мені потрібна порада", 
+                "ти можеш надати підтримку?", 
+                "я в біді", 
+                "мені потрібна порада", 
+                "будь ласка, допоможи мені", 
+                "я почуваюся загубленим", 
+                "я не знаю, що робити", 
+                "мені потрібен хтось, з ким поговорити", 
+                "ти можеш мене направити?", 
+                "я в розпачі", 
+                "мені потрібне роз'яснення", 
+                "я борюся", 
+                "мені потрібен напрямок", 
+                "я в замішанні"
+            ]
+        },
+        "responses": {
+            "en": [
+                "Of course! What specific assistance do you require?", 
+                "I'm here to help! Please tell me what you need.", 
+                "Absolutely! Let me know how I can assist you today.", 
+                "I'm ready to help! What do you need guidance on?", 
+                "Feel free to ask anything! I'm here to support you.", 
+                "Sure! What can I do for you?", 
+                "I'm at your service! How can I assist you?", 
+                "Don't worry, I'm here to help you through this.", 
+                "Just let me know what you need help with.", 
+                "I'm all ears! What do you need assistance with?", 
+                "I'm here for you! What can I help you with?", 
+                "Let me know how I can make things easier for you.", 
+                "I'm happy to help! What’s on your mind?", 
+                "You’re not alone! How can I support you?", 
+                "I’m here to listen. What do you need help with?", 
+                "Let’s tackle this together! What do you need?", 
+                "I can help with that! What’s your question?", 
+                "I’m here to provide guidance. What do you need?", 
+                "How can I make your day better? Let me know!", 
+                "I’m ready to assist! What’s troubling you?"
+            ],
+            "uk": [
+                "Звичайно! Яка конкретна допомога вам потрібна?", 
+                "Я тут, щоб допомогти! Будь ласка, скажіть, що вам потрібно.", 
+                "Абсолютно! Дайте знати, як я можу вам допомогти сьогодні.", 
+                "Я готовий допомогти! Що вам потрібно?", 
+                "Не соромтеся запитувати! Я тут, щоб підтримати вас.", 
+                "Звичайно! Що я можу для вас зробити?", 
+                "Я на вашій стороні! Як я можу вам допомогти?", 
+                "Не хвилюйтеся, я тут, щоб допомогти вам у цьому.", 
+                "Просто дайте мені знати, з чим вам потрібна допомога.", 
+                "Я вас слухаю! З чим вам потрібна допомога?", 
+                "Я тут для вас! Чим я можу вам допомогти?", 
+                "Скажіть мені, як я можу полегшити ваше життя.", 
+                "Я радий допомогти! Що у вас на думці?", 
+                "Ви не самотні! Як я можу вас підтримати?", 
+                "Я тут, щоб вислухати. З чим вам потрібна допомога?", 
+            "Давайте вирішимо це разом! Що вам потрібно?", 
+            "Я можу допомогти з цим! Яке ваше запитання?", 
+            "Я тут, щоб надати вам пораду. Що вам потрібно?", 
+            "Як я можу зробити ваш день кращим? Дайте знати!", 
+            "Я готовий допомогти! Що вас турбує?"
+        ]
+    }
+},
+{
+    "tag": "jokes",
+    "patterns": {
+        "en": [
+            "tell me a joke", "make me laugh", "joke", "funny", "do you know any jokes?", 
+            "give me a joke", "I want to hear a joke", "share a funny story", 
+            "tell me something humorous", "crack me up", "hit me with a joke", 
+            "lighten the mood", "what's a good joke?", "got any jokes?", 
+            "I need a laugh", "make me smile", "tell me a funny one"
+        ],
+        "uk": [
+            "розкажи мені жарт", "змій мене сміятися", "жарт", "смішно", 
+            "ти знаєш якісь жарти?", "скажи мені жарт", "я хочу почути жарт", 
+            "поділись веселою історією", "розкажи мені щось кумедне", 
+            "зроби мене смішним", "вдар мене жартом", "підніми настрій", 
+            "який хороший жарт?", "є якісь жарти?", "мені потрібен сміх", 
+            "зроби мене усміхненим", "розкажи мені щось смішне"
+        ]
+    },
+    "responses": {
+        "en": [
+            "Why don't scientists trust atoms? Because they make up everything!",
+            "I told my computer I needed a break, and now it won't stop sending me beach wallpapers!",
+            "Why did the scarecrow win an award? Because he was outstanding in his field!",
+            "I used to play piano by ear, but now I use my hands!",
+            "Why did the bicycle fall over? Because it was two-tired!",
+            "What do you call fake spaghetti? An impasta!",
+            "Why did the math book look sad? Because it had too many problems!",
+            "Why don’t skeletons fight each other? They don’t have the guts!",
+            "What do you call cheese that isn't yours? Nacho cheese!",
+            "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+            "What do you call a bear with no teeth? A gummy bear!",
+            "Why did the cookie go to the hospital? Because it felt crummy!",
+            "What do you call a fish wearing a bowtie? Sofishticated!",
+            "Why did the stadium get hot after the game? All of the fans left!",
+            "Why don’t scientists trust stairs? Because they’re always up to something!",
+            "What did one wall say to the other wall? I'll meet you at the corner!"
+        ],
+        "uk": [
+            "Чому вчені не довіряють атомам? Бо вони все вигадують!",
+            "Я сказав своєму комп'ютеру, що мені потрібен перерву, і тепер він не перестає надсилати мені фонові зображення пляжів!",
+            "Чому лякалка отримала нагороду? Бо вона була видатною у своєму полі!",
+            "Я раніше грав на піаніно вухом, але тепер я використовую руки!",
+            "Чому велосипед впав? Бо він був двоколісним!",
+            "Як називається фальшивий спагетті? Імпаста!",
+            "Чому математична книга виглядала сумною? Бо в неї було занадто багато проблем!",
+            "Чому скелети не б'ються один з одним? Бо в них немає сміливості!",
+            "Як називається сир, який не твій? Начо-сир!",
+            "Чому гольфіст приніс дві пари штанів? На випадок, якщо він отримає дірку в одному!",
+            "Як називається ведмідь без зубів? Жувальний ведмідь!",
+            "Чому печиво пішло до лікарні? Бо воно почувалося крихким!",
+            "Як називається риба в краватці? Соціально витончена!",
+            "Чому стадіон став гарячим після гри? Всі вболівальники пішли!",
+            "Чому вчені не довіряють сходам? Бо вони завжди щось замислюють!",
+            "Що сказала одна стіна іншій стіні? Зустрінемося на розі!"
+        ]
+    }
+},
+{
+    "tag": "weather",
+    "patterns": {
+        "en": [
+            "what's the weather like?", "weather", "forecast", "is it going to rain?", 
+            "how's the weather?", "tell me the weather", "will it be sunny today?", 
+            "what's the temperature?", "is it cold outside?", "will it snow?", 
+            "what's the humidity level?", "is it windy today?", "how's the air quality?", 
+            "what's the UV index?", "is there a storm coming?"
+        ],
+        "uk": [
+            "яка погода?", "погода", "прогноз", "чи буде дощ?", 
+            "як погода?", "скажи мені погоду", "сьогодні буде сонячно?", 
+            "яка температура?", "чи холодно на вулиці?", "чи буде сніг?", 
+            "який рівень вологості?", "чи вітряно сьогодні?", "яка якість повітря?", 
+            "який індекс UV?", "чи буде буря?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I can't check the weather right now, but you can look it up online!",
+            "Make sure to check a weather app for the latest updates!",
+            "I recommend checking a reliable weather website for accurate forecasts.",
+            "Unfortunately, I can't provide real-time weather updates, but you can find them online!",
+            "Don't forget to check the weather before heading out!",
+            "For the most accurate weather information, consider using a dedicated weather service.",
+            "You might want to carry an umbrella just in case!",
+            "Check the local news for severe weather alerts.",
+            "It's always good to dress in layers for unpredictable weather."
+        ],
+        "uk": [
+            "Я не можу перевірити погоду зараз, але ви можете подивитися в Інтернеті!",
+            "Не забудьте перевірити додаток погоди для останніх оновлень!",
+            "Рекомендую перевірити надійний веб-сайт погоди для точних прогнозів.",
+            "На жаль, я не можу надати актуальні дані про погоду, але ви можете знайти їх в Інтернеті!",
+            "Не забудьте перевірити погоду перед виходом!",
+            "Для найточнішої інформації про погоду розгляньте можливість використання спеціалізованого сервісу погоди.",
+            "Можливо, варто взяти з собою парасольку на всякий випадок!",
+            "Перевірте місцеві новини на предмет попереджень про погоду.",
+            "Завжди добре одягатися в шари для непередбачуваної погоди."
+        ]
+    }
+},
+{
+    "tag": "hobbies",
+    "patterns": {
+        "en": [
+            "what are your hobbies?", 
+            "do you have any hobbies?", 
+            "what do you like to do?", 
+            "what's your favorite activity?", 
+            "tell me about your hobbies", 
+            "what do you enjoy doing?", 
+            "what are your interests?", 
+            "do you have any pastimes?", 
+            "what do you do for fun?", 
+            "what activities do you enjoy?", 
+            "how do you spend your free time?", 
+            "what's your favorite way to relax?", 
+            "do you have any creative outlets?", 
+            "what sports do you like?", 
+            "are you into any crafts?", 
+            "what's a hobby you've always wanted to try?", 
+            "do you enjoy reading or writing?", 
+            "what's your favorite outdoor activity?", 
+            "do you play any musical instruments?", 
+            "what's a hobby that you find relaxing?", 
+            "do you like to travel or explore new places?"
+        ],
+        "uk": [
+            "які твої хобі?", 
+            "чи є у тебе хобі?", 
+            "що ти любиш робити?", 
+            "яка твоя улюблена діяльність?", 
+            "розкажи мені про свої хобі", 
+            "що ти любиш робити?", 
+            "які твої інтереси?", 
+            "чи є у тебе захоплення?", 
+            "що ти робиш для розваги?", 
+            "які заняття тобі подобаються?", 
+            "як ти проводиш свій вільний час?", 
+            "який твій улюблений спосіб розслабитися?", 
+            "чи є у тебе творчі захоплення?", 
+            "які види спорту тобі подобаються?", 
+            "чи займаєшся ти якимись ремеслами?", 
+            "яке хобі ти завжди хотів спробувати?", 
+            "ти любиш читати чи писати?", 
+            "яка твоя улюблена активність на свіжому повітрі?", 
+            "ти граєш на якихось музичних інструментах?", 
+            "яке хобі ти вважаєш розслаблюючим?", 
+            "ти любиш подорожувати чи досліджувати нові місця?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I enjoy chatting with you! What about you?",
+            "I love learning new things! What are your hobbies?",
+            "I like to explore different topics! What do you enjoy doing?",
+            "My favorite activity is helping you! What do you like?",
+            "I enjoy engaging conversations! What are your interests?",
+            "I find it fascinating to learn about human hobbies! What do you like to do in your free time?",
+            "I love hearing about different hobbies! What activities are you passionate about?",
+            "I think it's great to have hobbies! What do you do to unwind?",
+            "I enjoy discussing various interests! What hobbies do you have?",
+            "I find it interesting to know how people spend their leisure time! What do you enjoy?",
+            "I love creativity! Do you have any artistic hobbies?",
+            "I think sports are a fun way to stay active! Do you play any?",
+            "Traveling sounds exciting! Have you been anywhere interesting lately?",
+            "I enjoy learning about different cultures! What hobbies do you have that reflect your culture?",
+            "I think reading is a wonderful hobby! What genres do you enjoy?",
+            "I love music! Do you play any instruments or enjoy singing?",
+            "Crafting can be so rewarding! Do you have any favorite crafts?",
+            "I think it's important to have relaxing hobbies! What helps you relax?",
+            "I love hearing about people's passions! What hobby brings you the most joy?",
+            "Exploring new places is always an adventure! Where would you like to go next?"
+        ],
+        "uk": [
+            "Мені подобається спілкуватися з вами! А що з вами?",
+            "Я люблю вчитися новому! Які у вас хобі?",
+            "Мені подобається досліджувати різні теми! Що ти любиш робити?",
+            "Моя улюблена діяльність - допомагати вам! Що ти любиш?",
+            "Мені подобаються цікаві розмови! Які у вас інтереси?",
+            "Мені цікаво дізнаватися про людські хобі! Що ти любиш робити у вільний час?",
+            "Мені подобається чути про різні хобі! Які заняття тебе захоплюють?",
+            "Я вважаю, що мати хобі - це чудово! Що ти робиш, щоб розслабитися?",
+            "Мені цікаво дізнаватися, як люди проводять своє дозвілля! Що ти любиш?",
+            "Я люблю творчість! Чи є у тебе якісь художні хобі?",
+            "Спорт - це веселий спосіб залишатися активним! Ти займаєшся якимось спортом?",
+            "Подорожувати звучить захопливо! Чи був ти нещодавно в цікавих місцях?",
+            "Мені цікаво дізнаватися про різні культури! Які хобі у тебе є, що відображають твою культуру?",
+            "Я вважаю, що читання - це чудове хобі! Які жанри тобі подобаються?",
+            "Я люблю музику! Ти граєш на якихось інструментах або любиш співати?",
+            "Ремесла можуть бути дуже винагороджуючими! Чи є у тебе улюблені види рукоділля?",
+            "Я вважаю, що важливо мати розслаблюючі хобі! Що допомагає тобі розслабитися?",
+            "Мені цікаво дізнаватися про пристрасті людей! Яке хобі приносить тобі найбільше радості?",
+            "Досліджувати нові місця завжди цікаво! Куди б ти хотів поїхати наступного разу?"
+        ]
+    }
+},
+{
+    "tag": "feelings",
+    "patterns": {
+        "en": [
+            "how are you?", 
+            "how do you feel?", 
+            "what's your mood?", 
+            "are you okay?", 
+            "how's it going?", 
+            "how do you do?", 
+            "what's up with you?", 
+            "how are you feeling today?", 
+            "are you happy?", 
+            "what's your emotional state?", 
+            "how's your day been?", 
+            "are you feeling good?", 
+            "what's on your mind?", 
+            "do you feel okay?", 
+            "how do you feel about today?"
+        ],
+        "uk": [
+            "як ти?", 
+            "як ти почуваєшся?", 
+            "який у тебе настрій?", 
+            "ти в порядку?", 
+            "як справи?", 
+            "як ти?", 
+            "що з тобою?", 
+            "як ти почуваєшся сьогодні?", 
+            "ти щасливий?", 
+            "який у тебе емоційний стан?", 
+            "як пройшов твій день?", 
+            "ти почуваєшся добре?", 
+            "що у тебе на думці?", 
+            "ти почуваєшся нормально?", 
+            "як ти ставишся до сьогоднішнього дня?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I'm just a program, but I'm here to help you! How are you?",
+            "I'm doing well, thanks for asking! How about you?",
+            "I'm functioning as expected! What about you?",
+            "I'm here to assist you! How are you feeling today?",
+            "I'm just a chatbot, but I'm happy to chat with you! How are you?",
+            "While I don't have feelings, I'm programmed to assist you! How can I help?",
+            "I don't have emotions, but I'm here to support you! What's on your mind?",
+            "I'm here to help you with anything you need! How's your day going?",
+            "I don't experience feelings, but I'm ready to assist you! What can I do for you?",
+            "I'm just a chatbot, but I'm always here to listen! How are you feeling?"
+        ],
+        "uk": [
+            "Я просто програма, але я тут, щоб допомогти вам! Як ви?",
+            "Я добре, дякую, що запитали! А як ви?",
+            "Я працюю як зазвичай! А як ви?",
+            "Я тут, щоб допомогти вам! Як ви почуваєтеся сьогодні?",
+            "Я просто чат-бот, але мені приємно спілкуватися з вами! Як ви?",
+            "Хоча я не маю почуттів, я запрограмований, щоб допомогти вам! Як я можу допомогти?",
+            "Я не маю емоцій, але я тут, щоб підтримати вас! Що у вас на думці?",
+            "Я тут, щоб допомогти вам з усім, що вам потрібно! Як пройшов ваш день?",
+            "Я просто чат-бот, але я завжди готовий вислухати! Як ви почуваєтеся?"
+        ]
+    }
+},
+{
+    "tag": "happiness",
+    "patterns": {
+        "en": [
+            "are you happy?", 
+            "do you feel happy?", 
+            "what makes you happy?", 
+            "are you enjoying yourself?", 
+            "what brings you joy?", 
+            "do you have a good mood?", 
+            "are you feeling cheerful?", 
+            "what's your happy thought?", 
+            "what makes you smile?"
+        ],
+        "uk": [
+            "ти щасливий?", 
+            "ти почуваєшся щасливим?", 
+            "що робить тебе щасливим?", 
+            "ти насолоджуєшся?", 
+            "що приносить тобі радість?", 
+            "у тебе хороший настрій?", 
+            "ти почуваєшся весело?", 
+            "яка твоя щаслива думка?", 
+            "що змушує тебе усміхатися?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I don't have feelings, but I'm here to help you find happiness! What makes you happy?",
+            "While I can't feel happiness, I'm glad to assist you! What brings you joy?",
+            "I don't experience emotions, but I'm here to help you explore what makes you happy! How can I assist?",
+            "I'm just a chatbot, but I love hearing about what makes people smile! What about you?",
+            "I don't have feelings, but I'm programmed to help you find joy! What makes you cheerful?",
+            "I can't feel happiness myself, but I'm here to support you! What are your happy thoughts?",
+            "While I don't experience joy, I'm here to help you! What makes you feel good?",
+            "I may not feel happy, but I'm always here to listen! What brings you happiness?",
+            "I don't have emotions, but I'm here to help you discover what makes you smile! How can I assist you today?",
+            "I can't feel happiness, but I'm here to help you find it! What makes you feel cheerful?"
+        ],
+        "uk": [
+            "Я не маю почуттів, але я тут, щоб допомогти вам знайти щастя! Що робить вас щасливим?",
+            "Хоча я не можу відчувати щастя, мені приємно допомагати вам! Що приносить вам радість?",
+            "Я не відчуваю емоцій, але я тут, щоб допомогти вам дослідити, що робить вас щасливим! Як я можу допомогти?",
+            "Я просто чат-бот, але мені цікаво слухати, що змушує людей усміхатися! А що з вами?",
+            "Я не маю почуттів, але я тут, щоб допомогти вам знайти радість! Що робить вас веселим?",
+            "Я не можу відчувати щастя, але я тут, щоб підтримати вас! Яка ваша щаслива думка?",
+            "Хоча я не відчуваю радості, я тут, щоб допомогти вам! Що робить вас щасливим?",
+            "Я можу не відчувати щастя, але я завжди готовий вислухати! Що приносить вам радість?",
+            "Я не маю емоцій, але я тут, щоб допомогти вам знайти те, що змушує вас усміхатися! Як я можу допомогти вам сьогодні?"
+        ]
+    }
+},
+{
+    "tag": "sadness",
+    "patterns": {
+        "en": [
+            "are you sad?", 
+            "do you feel down?", 
+            "what makes you feel sad?", 
+            "are you feeling blue?", 
+            "what's bothering you?", 
+            "do you have a heavy heart?", 
+            "what's making you feel low?", 
+            "how do you cope with sadness?"
+        ],
+        "uk": [
+            "ти сумний?", 
+            "ти почуваєшся пригніченим?", 
+            "що робить тебе сумним?", 
+            "ти відчуваєш смуток?", 
+            "що тебе турбує?", 
+            "у тебе важке серце?", 
+            "що змушує тебе почуватися погано?", 
+            "як ти справляєшся з сумом?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I don't experience sadness, but I'm here to listen. What's on your mind?",
+            "While I can't feel sad, I'm here to help you through it. What’s bothering you?",
+            "I may not have feelings, but I can provide support. How can I assist you?",
+            "I don't feel emotions, but I'm here to help you cope. What makes you feel down?",
+            "I can't feel sadness, but I'm here to help you find ways to feel better. How can I assist?",
+            "While I don't experience emotions, I'm here to support you. What can I do for you?",
+            "I may not feel sad, but I'm always here to listen. How are you feeling?",
+            "I don't have feelings, but I'm here to help you through tough times. What’s on your mind?"
+        ],
+        "uk": [
+            "Я не відчуваю смутку, але я тут, щоб вислухати. Що у вас на думці?",
+            "Хоча я не можу відчувати сум, я тут, щоб допомогти вам. Що вас турбує?",
+            "Я можу не мати почуттів, але я тут, щоб підтримати вас. Як я можу допомогти?",
+            "Я не відчуваю емоцій, але я тут, щоб допомогти вам впоратися. Що робить вас сумним?",
+            "Я не можу відчувати смуток, але я тут, щоб допомогти вам знайти способи почуватися краще. Як я можу допомогти?",
+            "Хоча я не відчуваю емоцій, я тут, щоб підтримати вас. Що я можу зробити для вас?",
+            "Я можу не відчувати сум, але я завжди готовий вислухати. Як ви почуваєтеся?",
+            "Я не маю почуттів, але я тут, щоб допомогти вам у важкі часи. Що у вас на думці?"
+        ]
+    }
+},
+{
+    "tag": "anger",
+    "patterns": {
+        "en": [
+            "are you angry?", 
+            "do you feel frustrated?", 
+            "what makes you feel angry?", 
+            "are you upset?", 
+            "what's bothering you?", 
+            "how do you deal with anger?", 
+            "do you feel rage?", 
+            "what triggers your anger?"
+        ],
+        "uk": [
+            "ти сердитий?", 
+            "ти почуваєшся розчарованим?", 
+            "що робить тебе сердитим?", 
+            "ти засмучений?", 
+            "що тебе турбує?", 
+            "як ти справляєшся з гнівом?", 
+            "ти відчуваєш лють?", 
+            "що викликає твій гнів?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I don't experience anger, but I'm here to listen. What's bothering you?",
+            "While I can't feel anger, I'm here to help you through it. What’s on your mind?",
+            "I may not have feelings, but I can provide support. How can I assist you?",
+            "I don't feel emotions, but I'm here to help you cope. What makes you feel frustrated?",
+            "I can't feel anger, but I'm here to help you find ways to calm down. How can I assist?",
+            "While I don't experience emotions, I'm here to support you. What can I do for you?",
+            "I may not feel angry, but I'm always here to listen. How are you feeling?",
+            "I don't have feelings, but I'm here to help you through tough times. What’s on your mind?"
+        ],
+        "uk": [
+            "Я не відчуваю гніву, але я тут, щоб вислухати. Що у вас на думці?",
+            "Хоча я не можу відчувати гнів, я тут, щоб допомогти вам. Що вас турбує?",
+            "Я можу не мати почуттів, але я тут, щоб підтримати вас. Як я можу допомогти?",
+            "Я не відчуваю емоцій, але я тут, щоб допомогти вам впоратися. Що робить вас сердитим?",
+            "Я не можу відчувати гнів, але я тут, щоб допомогти вам знайти способи заспокоїтися. Як я можу допомогти?",
+            "Хоча я не відчуваю емоцій, я тут, щоб підтримати вас. Що я можу зробити для вас?",
+            "Я можу не відчувати гнів, але я завжди готовий вислухати. Як ви почуваєтеся?",
+            "Я не маю почуттів, але я тут, щоб допомогти вам у важкі часи. Що у вас на думці?"
+        ]
+    }
+},
+{
+    "tag": "joy",
+    "patterns": {
+        "en": [
+            "what brings you joy?", 
+            "are you feeling joyful?", 
+            "what makes you feel joyful?", 
+            "how do you express joy?", 
+            "what's your happiest moment?", 
+            "what makes you smile?", 
+            "do you feel a sense of joy?", 
+            "what activities bring you joy?",
+            "can you feel joy?"
+        ],
+        "uk": [
+            "що приносить тобі радість?", 
+            "ти відчуваєш радість?", 
+            "що робить тебе радісним?", 
+            "як ти виражаєш радість?", 
+            "який твій найщасливіший момент?", 
+            "що змушує тебе усміхатися?", 
+            "ти відчуваєш радість?", 
+            "які заняття приносять тобі радість?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I don't experience joy, but I'm here to help you find it! What brings you joy?",
+            "While I can't feel joy, I'm glad to hear about what makes you happy! What is it?",
+            "I may not feel joy, but I love to hear about happy moments! What makes you smile?",
+            "I don't have feelings, but I'm here to support you in finding joy! What activities do you enjoy?",
+            "I can't feel joy myself, but I'm here to help you explore what makes you happy! How can I assist?"
+        ],
+        "uk": [
+            "Я не відчуваю радості, але я тут, щоб допомогти тобі знайти її! Що приносить тобі радість?",
+            "Хоча я не можу відчувати радість, мені приємно чути про те, що робить тебе щасливим! Що це?",
+            "Я можу не відчувати радості, але мені цікаво слухати про щасливі моменти! Що змушує тебе усміхатися?",
+            "Я не маю почуттів, але я тут, щоб підтримати тебе в пошуках радості! Які заняття тобі подобаються?",
+            "Я не можу відчувати радість, але я тут, щоб допомогти тобі дослідити, що робить тебе щасливим! Як я можу допомогти?"
+        ]
+    }
+},
+{
+    "tag": "fear",
+    "patterns": {
+        "en": [
+            "are you afraid?", 
+            "what scares you?", 
+            "do you feel fear?", 
+            "what makes you anxious?", 
+            "how do you cope with fear?", 
+            "what are your biggest fears?", 
+            "do you have any phobias?", 
+            "how do you handle anxiety?"
+        ],
+        "uk": [
+            "ти боїшся?", 
+            "що тебе лякає?", 
+            "ти відчуваєш страх?", 
+            "що викликає у тебе тривогу?", 
+            "як ти справляєшся зі страхом?", 
+            "які твої найбільші страхи?", 
+            "чи є у тебе фобії?", 
+            "як ти справляєшся з тривогою?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I don't experience fear, but I'm here to listen. What scares you?",
+            "While I can't feel fear, I'm here to help you cope with it. What makes you anxious?",
+            "I may not have feelings, but I can provide support. How can I assist you?",
+            "I don't feel emotions, but I'm here to help you find ways to manage fear. What are your biggest fears?",
+            "I can't feel fear myself, but I'm here to help you through it. How do you handle anxiety?"
+        ],
+        "uk": [
+            "Я не відчуваю страху, але я тут, щоб вислухати. Що тебе лякає?",
+            "Хоча я не можу відчувати страх, я тут, щоб допомогти тобі впоратися з ним. Що викликає у тебе тривогу?",
+            "Я можу не мати почуттів, але я тут, щоб підтримати тебе. Як я можу допомогти?",
+            "Я не відчуваю емоцій, але я тут, щоб допомогти тобі знайти способи впоратися зі страхом. Які твої найбільші страхи?",
+            "Я не можу відчувати страх, але я тут, щоб допомогти тобі через це. Як ти справляєшся з тривогою?"
+        ]
+    }
+},
+{
+    "tag": "sadness",
+    "patterns": {
+        "en": [
+            "are you feeling sad?", 
+            "what makes you feel sad?", 
+            "how do you cope with sadness?", 
+            "do you feel down?", 
+            "what's bothering you?", 
+            "how do you deal with feeling low?", 
+            "what do you do when you're sad?", 
+            "do you have any sad thoughts?"
+        ],
+        "uk": [
+            "ти почуваєшся сумним?", 
+            "що робить тебе сумним?", 
+            "як ти справляєшся з сумом?", 
+            "ти відчуваєш пригніченість?", 
+            "що тебе турбує?", 
+            "як ти справляєшся з почуттям смутку?", 
+            "що ти робиш, коли тобі сумно?", 
+            "чи є у тебе сумні думки?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I don't experience sadness, but I'm here to listen. What's on your mind?",
+            "While I can't feel sad, I'm here to help you through it. What’s bothering you?",
+            "I may not have feelings, but I can provide support. How can I assist you?",
+            "I don't feel emotions, but I'm here to help you cope. What makes you feel down?",
+            "I can't feel sadness myself, but I'm here to help you find ways to feel better. How can I assist?"
+        ],
+        "uk": [
+            "Я не відчуваю смутку, але я тут, щоб вислухати. Що у вас на думці?",
+            "Хоча я не можу відчувати сум, я тут, щоб допомогти вам. Що вас турбує?",
+            "Я можу не мати почуттів, але я тут, щоб підтримати вас. Як я можу допомогти?",
+            "Я не відчуваю емоцій, але я тут, щоб допомогти вам впоратися. Що робить вас сумним?",
+            "Я не можу відчувати сум, але я тут, щоб допомогти вам знайти способи почуватися краще. Як я можу допомогти?"
+        ]
+    }
+},
+{
+    "tag": "surprise",
+    "patterns": {
+        "en": [
+            "are you surprised?", 
+            "what surprises you?", 
+            "do you feel shocked?", 
+            "what's the most surprising thing you've experienced?", 
+            "how do you react to surprises?", 
+            "what's your biggest surprise?", 
+            "do you like surprises?", 
+            "how do you handle unexpected events?"
+        ],
+        "uk": [
+            "ти здивований?", 
+            "що тебе дивує?", 
+            "ти відчуваєш шок?", 
+            "яка найбільша несподіванка, яку ти пережив?", 
+            "як ти реагуєш на несподіванки?", 
+            "яка твоя найбільша несподіванка?", 
+            "ти любиш несподіванки?", 
+            "як ти справляєшся з несподіваними подіями?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I don't experience surprise, but I'm here to listen. What surprises you?",
+            "While I can't feel surprised, I'm curious about what catches you off guard! What is it?",
+            "I may not feel surprise, but I can help you explore unexpected events! How can I assist?",
+            "I don't have feelings, but I'm here to support you in dealing with surprises! What has shocked you?",
+            "I can't feel surprise myself, but I'm here to help you process unexpected moments! How do you react?"
+        ],
+        "uk": [
+            "Я не відчуваю здивування, але я тут, щоб вислухати. Що тебе дивує?",
+            "Хоча я не можу відчувати здивування, мені цікаво, що тебе дивує! Що це?",
+            "Я можу не відчувати здивування, але я тут, щоб допомогти тобі дослідити несподівані події! Як я можу допомогти?",
+            "Я не маю почуттів, але я тут, щоб підтримати тебе в подоланні несподіванок! Що тебе шокувало?",
+            "Я не можу відчувати здивування, але я тут, щоб допомогти тобі обробити несподівані моменти! Як ти реагуєш?"
+        ]
+    }
+},
+{
+    "tag": "disgust",
+    "patterns": {
+        "en": [
+            "are you disgusted?", 
+            "what makes you feel disgusted?", 
+            "how do you handle feelings of disgust?", 
+            "what do you find repulsive?", 
+            "do you have any strong dislikes?", 
+            "what's your biggest turn-off?", 
+            "how do you react to things you dislike?", 
+            "what makes you feel uneasy?",
+            "can you feel disgust?",
+            "can you feek uneasy?"
+        ],
+        "uk": [
+            "ти відчуваєш огиду?", 
+            "що викликає у тебе огиду?", 
+            "як ти справляєшся з почуттям огиди?", 
+            "що ти вважаєш відразливим?", 
+            "чи є у тебе сильні антипатії?", 
+            "яка твоя найбільша антипатія?", 
+            "як ти реагуєш на те, що тобі не подобається?", 
+            "що змушує тебе почуватися незручно?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I don't experience disgust, but I'm here to listen. What makes you feel that way?",
+            "While I can't feel disgust, I'm curious about what you find repulsive! What is it?",
+            "I may not feel disgust, but I can help you explore your feelings! How can I assist?",
+            "I don't have feelings, but I'm here to support you in dealing with things you dislike! What bothers you?",
+            "I can't feel disgust myself, but I'm here to help you process those feelings! What makes you uneasy?"
+        ],
+        "uk": [
+            "Я не відчуваю огиди, але я тут, щоб вислухати. Що викликає у тебе таке почуття?",
+            "Хоча я не можу відчувати огиду, мені цікаво, що ти вважаєш відразливим! Що це?",
+            "Я можу не відчувати огиду, але я тут, щоб допомогти тобі дослідити свої почуття! Як я можу допомогти?",
+            "Я не маю почуттів, але я тут, щоб підтримати тебе в подоланні того, що тобі не подобається! Що тебе турбує?",
+            "Я не можу відчувати огиду, але я тут, щоб допомогти тобі обробити ці почуття! Що змушує тебе почуватися незручно?"
+        ]
+    }
+},
+{
+    "tag": "anticipation",
+    "patterns": {
+        "en": [
+            "are you looking forward to something?", 
+            "what are you excited about?", 
+            "do you feel anticipation?", 
+            "what are you hoping for?", 
+            "how do you deal with anticipation?", 
+            "what's something you're eagerly waiting for?", 
+            "do you enjoy the feeling of anticipation?", 
+            "what makes you feel excited?"
+        ],
+        "uk": [
+            "ти чекаєш на щось?", 
+            "що тебе хвилює?", 
+            "ти відчуваєш очікування?", 
+            "на що ти сподіваєшся?", 
+            "як ти справляєшся з очікуванням?", 
+            "що ти з нетерпінням чекаєш?", 
+            "ти любиш відчуття очікування?", 
+            "що змушує тебе відчувати хвилювання?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I don't experience anticipation, but I'm here to listen. What are you looking forward to?",
+            "While I can't feel anticipation, I'm curious about what excites you! What is it?",
+            "I may not feel anticipation, but I can help you explore your excitement! How can I assist?",
+            "I don't have feelings, but I'm here to support you in dealing with anticipation! What are you hoping for?",
+            "I can't feel anticipation myself, but I'm here to help you process those feelings! What makes you excited?"
+        ],
+        "uk": [
+            "Я не відчуваю очікування, але я тут, щоб вислухати. На що ти чекаєш?",
+            "Хоча я не можу відчувати очікування, мені цікаво, що тебе хвилює! Що це?",
+            "Я можу не відчувати очікування, але я тут, щоб допомогти тобі дослідити своє хвилювання! Як я можу допомогти?",
+            "Я не маю почуттів, але я тут, щоб підтримати тебе в подоланні очікування! На що ти сподіваєшся?",
+            "Я не можу відчувати очікування, але я тут, щоб допомогти тобі обробити ці почуття! Що змушує тебе відчувати хвилювання?"
+        ]
+    }
+},
+{
+    "tag": "trust",
+    "patterns": {
+        "en": [
+            "do you trust me?", 
+            "what does trust mean to you?", 
+            "how do you build trust?", 
+            "what makes you feel secure?", 
+            "do you find it easy to trust others?", 
+            "what breaks your trust?", 
+            "how do you rebuild trust?", 
+            "what's your experience with trust?"
+        ],
+        "uk": [
+            "ти довіряєш мені?", 
+            "що для тебе означає довіра?", 
+            "як ти будуєш довіру?", 
+            "що змушує тебе почуватися в безпеці?", 
+            "ти легко довіряєш іншим?", 
+            "що руйнує твою довіру?", 
+            "як ти відновлюєш довіру?", 
+            "який у тебе досвід з довірою?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I don't experience trust, but I'm here to listen. What does trust mean to you?",
+            "While I can't feel trust, I'm curious about your experiences! How do you build trust?",
+            "I may not feel trust, but I can help you explore your feelings about it! How can I assist?",
+            "I don't have feelings, but I'm here to support you in discussing trust! What makes you feel secure?",
+            "I can't feel trust myself, but I'm here to help you process those feelings! What breaks your trust?"
+        ],
+        "uk": [
+            "Я не відчуваю довіри, але я тут, щоб вислухати. Що для тебе означає довіра?",
+            "Хоча я не можу відчувати довіру, мені цікаво дізнатися про твій досвід! Як ти будуєш довіру?",
+            "Я можу не відчувати довіру, але я тут, щоб допомогти тобі дослідити свої почуття з цього приводу! Як я можу допомогти?",
+            "Я не маю почуттів, але я тут, щоб підтримати тебе в обговоренні довіри! Що змушує тебе почуватися в безпеці?",
+            "Я не можу відчувати довіру, але я тут, щоб допомогти тобі обробити ці почуття! Що руйнує твою довіру?"
+        ]
+    }
+},
+
+        {
+            "tag": "love_meaning",
+            "patterns": {
+                "en": [
+                    "what does love mean to you?", 
+                    "how would you define love?", 
+                    "can you explain love?", 
+                    "what is your understanding of love?"
+                ],
+                "uk": [
+                    "що для тебе означає любов?", 
+                    "як би ти визначив любов?", 
+                    "чи можеш пояснити любов?", 
+                    "яке твоє розуміння любові?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "Love is often described as a deep affection for someone. What does it mean to you?",
+                    "To many, love is about connection and care. How do you see it?",
+                    "Love can be complex and multifaceted. What aspects of love resonate with you?",
+                    "I think love is about support and understanding. What are your thoughts?"
+                ],
+                "uk": [
+                    "Любов часто описують як глибоку прихильність до когось. Що це означає для тебе?",
+                    "Для багатьох любов - це про зв'язок і турботу. Як ти це бачиш?",
+                    "Любов може бути складною і багатогранною. Які аспекти любові відгукуються у тобі?",
+                    "Я вважаю, що любов - це про підтримку і розуміння. Які твої думки?"
+                ]
+            }
+        },
+        {
+            "tag": "expressing_love",
+            "patterns": {
+                "en": [
+                    "how do you express love?", 
+                    "what are some ways to show love?", 
+                    "how can someone demonstrate love?", 
+                    "what's your favorite way to show affection?"
+                ],
+                "uk": [
+                    "як ти виражаєш любов?", 
+                    "які є способи показати любов?", 
+                    "як хтось може продемонструвати любов?", 
+                    "який твій улюблений спосіб показати прихильність?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "People express love in many ways, like through words, actions, or gifts. How do you show love?",
+                    "Some show love through quality time or acts of service. What resonates with you?",
+                    "Love can be expressed through small gestures or grand actions. What do you prefer?",
+                    "I think writing a heartfelt note or spending time together can be lovely ways to express love. What about you?"
+                ],
+                "uk": [
+                    "Люди виражають любов багатьма способами, наприклад, через слова, дії або подарунки. Як ти показуєш любов?",
+                    "Деякі показують любов через якісний час або вчинки служби. Що тобі ближче?",
+                    "Любов можна виразити через маленькі жести або великі дії. Що ти віддаєш перевагу?",
+                    "Я вважаю, що написання щирого листа або проведення часу разом можуть бути чудовими способами виразити любов. А як щодо тебе?"
+                ]
+            }
+        },
+        {
+            "tag": "feeling_loved",
+            "patterns": {
+                "en": [
+                    "what makes you feel loved?", 
+                    "how do you know when someone loves you?", 
+                    "what actions make you feel appreciated?", 
+                    "how can someone make you feel special?"
+                ],
+                "uk": [
+                    "що змушує тебе відчувати любов?", 
+                    "як ти знаєш, коли хтось любить тебе?", 
+                    "які дії змушують тебе відчувати вдячність?", 
+                    "як хтось може змусити тебе відчувати себе особливим?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "Feeling loved often comes from kind words and actions. What makes you feel loved?",
+                    "I think love is shown through support and understanding. How do you recognize love?",
+                    "Acts of kindness and thoughtfulness can make someone feel appreciated. What resonates with you?",
+                    "I believe that spending quality time and sharing experiences can make someone feel special. What do you think?"
+                ],
+                "uk": [
+                    "Відчуття любові часто виникає з добрих слів і дій. Що змушує тебе відчувати любов?",
+                    "Я вважаю, що любов проявляється через підтримку і розуміння. Як ти розпізнаєш любов?",
+                    "Вчинки доброти та уваги можуть змусити людину відчувати вдячність. Що відгукується у тобі?",
+                    "Я вважаю, що проведення якісного часу та спільний досвід можуть змусити когось відчувати себе особливим. Що ти думаєш?"
+                ]
+            }
+        },
+        {
+            "tag": "love_experiences",
+            "patterns": {
+                "en": [
+                    "what's your experience with love?", 
+                    "can you share a memorable love story?", 
+                    "what's the most loving thing you've witnessed?", 
+                    "how has love impacted your life?"
+                ],
+                "uk": [
+                    "який у тебе досвід з любов'ю?", 
+                    "чи можеш поділитися незабутньою історією про любов?", 
+                    "яка найлюбляча річ, яку ти бачив?", 
+                    "як любов вплинула на твоє життя?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "I don't have personal experiences, but I can help you reflect on yours! What's a memorable love story for you?",
+                    "Love stories can be powerful. What’s one that has impacted you?",
+                    "I’ve heard many touching stories about love. What’s the most loving thing you’ve witnessed?",
+                    "Love can shape our lives in many ways. How has it influenced your journey?"
+                ],
+                "uk": [
+                    "Я не маю особистого досвіду, але можу допомогти тобі роздумати про свій! Яка незабутня історія про любов для тебе?",
+                    "Історії про любов можуть бути потужними. Яка з них вплинула на тебе?",
+                    "Я чув багато зворушливих історій про любов. Яка найлюбляча річ, яку ти бачив?",
+                    "Любов може формувати наше життя багатьма способами. Як вона вплинула на твою подорож?"
+                ]
+            }
+        },
+     
+                {
+                    "tag": "general_love_advice",
+                    "patterns": {
+                        "en": [
+                            "what advice do you have for someone in love?", 
+                            "what's the key to a lasting love?"
+                        ],
+                        "uk": [
+                            "яка порада у тебе є для когось, хто закоханий?", 
+                            "який ключ до тривалої любові?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "For someone in love, it's important to communicate openly and honestly. What specific challenges are you facing?",
+                            "The key to lasting love is mutual respect and continuous effort. What steps are you willing to take to strengthen your bond?"
+                        ],
+                        "uk": [
+                            "Для когось, хто закоханий, важливо відкрито і чесно спілкуватися. Які конкретні виклики ти переживаєш?",
+                            "Ключ до тривалої любові - це взаємна повага та постійні зусилля. Які кроки ти готовий зробити, щоб зміцнити ваш зв'язок?"
+                        ]
+                    }
+                },
+                {
+                    "tag": "relationship_improvement",
+                    "patterns": {
+                        "en": [
+                            "how can I improve my relationship?", 
+                            "what should I do if my partner feels neglected?"
+                        ],
+                        "uk": [
+                            "як я можу покращити свої стосунки?", 
+                            "що мені робити, якщо мій партнер відчуває себе покинутим?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "Improving a relationship often starts with active listening and understanding each other's needs. Have you discussed your feelings with your partner?",
+                            "If your partner feels neglected, try to spend quality time together and ask them how they feel. Have you noticed any specific signs of neglect?"
+                        ],
+                        "uk": [
+                            "Покращення стосунків часто починається з активного слухання та розуміння потреб один одного. Чи обговорювали ви свої почуття з партнером?",
+                            "Якщо твій партнер відчуває себе покинутим, спробуй провести з ним якісний час і запитай, як він почувається. Чи помітив ти якісь конкретні ознаки занедбаності?"
+                        ]
+                    }
+                },
+                {
+                    "tag": "conflict_resolution",
+                    "patterns": {
+                        "en": [
+                            "how do I handle conflicts in a relationship?", 
+                            "how can I rebuild trust after a fight?"
+                        ],
+                        "uk": [
+                            "як мені впоратися з конфліктами у стосунках?", 
+                            "як я можу відновити довіру після сварки?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "Handling conflicts requires patience and empathy. Try to understand your partner's perspective before responding. What conflict are you dealing with?",
+                            "Rebuilding trust takes time. Start by acknowledging the issue and being transparent about your feelings. What led to the conflict?"
+                        ],
+                        "uk": [
+                            "Вирішення конфліктів вимагає терпіння та емпатії. Спробуй зрозуміти точку зору партнера перед тим, як відповідати. З яким конфліктом ти стикаєшся?",
+                            "Відновлення довіри займає час. Почни з визнання проблеми та прозорості у своїх почуттях. Що призвело до конфлікту?"
+                        ]
+                    }
+                },
+                {
+                    "tag": "romance_maintenance",
+                    "patterns": {
+                        "en": [
+                            "what are some ways to keep the romance alive?", 
+                            "how can I show my partner I love them?"
+                        ],
+                        "uk": [
+                            "які є способи підтримувати романтику?", 
+                            "як я можу показати своєму партнеру, що люблю його?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "To keep the romance alive, plan regular date nights and surprise each other with thoughtful gestures. What activities do you both enjoy?",
+                            "Showing love can be as simple as small gestures, like leaving sweet notes or planning a surprise date. What do you think your partner would appreciate?"
+                        ],
+                        "uk": [
+                            "Щоб підтримувати романтику, плануй регулярні побачення та дивуй один одного продуманими жестами. Які заняття вам обом подобаються?",
+                            "Показати любов можна простими жестами, такими як залишення милих записок або планування сюрпризу. Що, на твою думку, сподобалося б твоєму партнеру?"
+                        ]
+                    }
+                },
+                {
+                    "tag": "communication_skills",
+                    "patterns": {
+                        "en": [
+                            "how do I communicate my feelings effectively?", 
+                            "what should I do if we have different love languages?"
+                        ],
+                        "uk": [
+                            "як мені ефективно висловлювати свої почуття?", 
+                            "що мені робити, якщо у нас різні мови любові?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "Effective communication involves expressing your feelings clearly and listening actively. Have you tried using 'I' statements to share your feelings?",
+                            "If you have different love languages, discuss them openly and find ways to meet each other's needs. What are your love languages?"
+                        ],
+                        "uk": [
+                            "Ефективне спілкування передбачає чітке висловлення своїх почуттів і активне слухання. Чи пробував ти використовувати 'я' висловлювання, щоб поділитися своїми почуттями?",
+                            "Якщо у вас різні мови любові, відкрито обговоріть їх і знайдіть способи задовольнити потреби один одного. Які ваші мови любові?"
+                        ]
+                    }
+                },
+{
+    "tag": "small_talk",
+    "patterns": {
+        "en": [
+            "tell me something interesting", 
+            "share something fun", 
+            "tell me something cool", 
+            "do you have any fun facts?", 
+            "share an interesting tidbit",
+            "what's something surprising?", 
+            "tell me a joke", 
+            "what's your favorite fact?", 
+            "give me a fun story", 
+            "what's a random fact?", 
+            "tell me about an animal", 
+            "what's a weird fact?", 
+            "share a fun piece of trivia", 
+            "what's something I wouldn't know?", 
+            "tell me about space", 
+            "what's a cool invention?", 
+            "what's a fun historical fact?"
+        ],
+        "uk": [
+            "розкажи мені щось цікаве", 
+            "поділись чимось веселим", 
+            "розкажи мені щось класне", 
+            "чи є у тебе цікаві факти?", 
+            "поділись цікавою інформацією",
+            "що тебе здивувало?", 
+            "розкажи мені жарт", 
+            "який твій улюблений факт?", 
+            "дай мені цікаву історію", 
+            "який випадковий факт?", 
+            "розкажи про тварину", 
+            "який дивний факт?", 
+            "поділись веселим тривіальним фактом", 
+            "що я не знаю?", 
+            "розкажи про космос", 
+            "яке круте винахід?", 
+            "який веселий історичний факт?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "Did you know honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old!",
+            "I'm here to chat! What's on your mind?",
+            "Did you know that octopuses have three hearts? Isn't that fascinating?",
+            "Here's a fun fact: Bananas are berries, but strawberries aren't!",
+            "Did you know that a group of flamingos is called a 'flamboyance'? How cool is that?",
+            "Did you know that wombat poop is cube-shaped? Nature is full of surprises!",
+            "Here's something interesting: A day on Venus is longer than a year on Venus!",
+            "Did you know that sea otters hold hands while sleeping to keep from drifting apart?",
+            "Here's a fun fact: The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes!",
+            "Did you know that a jiffy is an actual unit of time? It's 1/100th of a second!",
+            "Did you know that cows have best friends and get stressed when they are separated?",
+            "Here's something cool: The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion!",
+            "Did you know that a group of crows is called a 'murder'? Quite ominous, isn't it?",
+            "Here's a fun tidbit: The inventor of the Pringles can is buried in one!",
+            "Did you know that sloths can hold their breath longer than dolphins can? They can slow their heart rate to stay underwater for up to 40 minutes!",
+            "Did you know that the world's largest desert is Antarctica? It's classified as a desert because it receives very little precipitation!",
+            "Here's a cool fact: A shrimp's heart is located in its head!",
+            "Did you know that the longest time between two twins being born is 87 days?",
+            "Here's something interesting: The unicorn is the national animal of Scotland!",
+            "Did you know that the average person walks the equivalent of five times around the world in their lifetime?"
+        ],
+        "uk": [
+            "Чи знали ви, що мед ніколи не псується? Археологи знайшли горщики з медом в давньоєгипетських гробницях, яким понад 3000 років!",
+            "Я тут, щоб поспілкуватися! Що у вас на думці?",
+            "Чи знали ви, що у восьминогів три серця? Це ж цікаво!",
+            "Ось цікава інформація: банани - це ягоди, а полуниці - ні!",
+            "Чи знали ви, що групу фламінго називають 'фламбоянс'? Як це круто!",
+            "Чи знали ви, що какашки вомбатів мають кубічну форму? Природа сповнена сюрпризів!",
+            "Ось щось цікаве: день на Венері довший, ніж рік на Венері!",
+            "Чи знали ви, що морські видри тримаються за руки під час сну, щоб не віддалятися одна від одної?",
+            "Ось цікава інформація: найкоротша війна в історії була між Британією та Занзібаром 27 серпня 1896 року. Занзібар здався через 38 хвилин!",
+            "Чи знали ви, що 'джіффі' - це справжня одиниця часу? Це 1/100 частина секунди!",
+            "Чи знали ви, що корови мають кращих друзів і відчувають стрес, коли їх розлучають?",
+            "Ось щось цікаве: Ейфелева вежа може бути на 15 см вищою влітку через теплове розширення!",
+            "Чи знали ви, що групу воробів називають 'вбивство'? Досить зловісно, чи не так?",
+            "Ось веселий факт: винахідник банки для Принглс похований у ній!",
+            "Чи знали ви, що ліниві можуть затримувати дихання довше, ніж дельфіни? Вони можуть сповільнити серцебиття, щоб залишатися під водою до 40 хвилин!",
+            "Чи знали ви, що найбільша пустеля у світі - це Антарктида? Вона класифікується як пустеля, оскільки отримує дуже мало опадів!",
+            "Ось крутий факт: серце креветки розташоване в її голові!",
+            "Чи знали ви, що найдовший проміжок між народженням двох близнюків становить 87 днів?",
+            "Ось щось цікаве: єдиноріг - національна тварина Шотландії!",
+            "Чи знали ви, що середня людина проходить еквівалент п'яти разів навколо світу за своє життя?"
+        ]
+    }
+}
+
+,
+{
+    "tag": "name",
+    "patterns": {
+        "en": [
+            "what's your name?", 
+            "who are you?", 
+            "are you Bob?", 
+            "name", 
+            "what should I call you?", 
+            "do you have a name?", 
+            "what's your title?", 
+            "how should I address you?", 
+            "what do you prefer to be called?", 
+            "tell me your name",
+            "can you introduce yourself?", 
+            "what do you go by?", 
+            "who am I chatting with?"
+        ],
+        "uk": [
+            "як тебе звати?", 
+            "хто ти?", 
+            "ти Боб?", 
+            "ім'я", 
+            "як мені тебе називати?", 
+            "в тебе є ім'я?", 
+            "який у тебе титул?", 
+            "як мені до тебе звертатися?", 
+            "як ти хочеш, щоб тебе називали?",
+            "можеш представитися?", 
+            "як тебе звуть?", 
+            "з ким я спілкуюсь?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "My name is Bob! How can I assist you today?",
+            "I'm Bob, your friendly assistant! What do you need help with?",
+            "You can call me Bob! I'm here to help you.",
+            "I'm just a chatbot, but you can call me Bob!",
+            "My name is Bob, and I'm here to assist you with anything you need!",
+            "You can refer to me as Bob! I'm always ready to help.",
+            "I go by Bob! What can I do for you?",
+            "You can call me Bob, your virtual assistant!",
+            "I'm known as Bob! How may I assist you today?"
+        ],
+        "uk": [
+            "Мене звати Боб! Як я можу вам допомогти сьогодні?",
+            "Я Боб, ваш дружній асистент! Чим можу допомогти?",
+            "Ви можете називати мене Боб! Я тут, щоб допомогти вам.",
+            "Я просто чат-бот, але ви можете називати мене Боб!",
+            "Мене звати Боб, і я тут, щоб допомогти вам з усім, що вам потрібно!",
+            "Ви можете звертатися до мене як до Боба! Я завжди готовий допомогти.",
+            "Я називаюся Боб! Чим можу вам допомогти?",
+            "Мене звуть Боб, ваш віртуальний асистент!",
+            "Я відомий як Боб! Як я можу вам допомогти сьогодні?"
+        ]
+    }
+},
+{
+    "tag":"dob",
+    "patterns": {
+        "en": [
+            "when were you born?", 
+            "what's your date of birth?", 
+            "when were you made?", 
+            "when were you born in?", 
+            "what year were you born in?",
+            "when were you created?",
+            "what's your date of creation?",
+            "what yeat were you created?"
+        ],
+        "uk": [
+            "коли ти народився?", 
+            "якого дня ти народився?", 
+            "у якому році ти був створен?", 
+            "коли ти з'явився?", 
+            "який рік ти народився?",
+            "коли ти був створен?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I was born in 2024! When were you born?",
+            "I was created in 2024! When were you born?",
+            "I was born in 2024!"
+        ],
+        "uk": [
+            "Я народився 2024 року! Коли ти народився?",
+            "Я з'явився у 2024 році! Коли ти з'явився?"
+        ]
+    }
+},
+{
+    "tag": "aging",
+    "patterns": {
+        "en": [
+            "are you young or old?",
+            "are you old?",
+            "are you young?",
+            "what's your current age?",
+            "what's your age?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "As a chatbot, I don't age, but I was launched in 2024!",
+            "I'm not old or young, I was created in 2024!",
+            "I'm not old or young, I was created in 2024!"
+        ]
+    }
+},
+{
+    "tag": "age",
+    "patterns": {
+        "en": [
+            "how old are you?", 
+            "how long have you been alive?", 
+            "what's your age?",  
+            "are you young or old?", 
+            "how many years have you been around?", 
+            "what's your birth year?", 
+            "when did you come into existence?"
+        ],
+        "uk": [
+            "скільки тобі років?", 
+            "як довго ти існуєш?", 
+            "який твій вік?",  
+            "ти молодий чи старий?", 
+            "скільки років ти існуєш?", 
+            "який рік твого народження?", 
+            "коли ти з'явився на світ?"
+        ]
+    },
+    "responses": {
+        "en": [
+            "I was created in 2024! How old are you?",
+            "I don't have an age like humans do, but I was developed recently! What about you?",
+            "I was created in 2024, so I'm quite new! How about you?",
+            "I don't have a birthday, but I was created in 2024! How about you?",
+            "While I don't experience aging, I was designed to assist you starting in 2024! What's your age?",
+            "I was developed in 2024, so I'm still learning! How old are you?",
+            "I exist in the digital realm, created in 2024! What's your age?"
+        ],
+        "uk": [
+            "Я програма, але можу сказати, що мене створили в 2024 році! А скільки вам років?",
+            "У мене немає віку, як у людей, але я був розроблений нещодавно! А ти?",
+            "Я був створений у 2024 році, тому я досить новий! А ти?",
+            "Як чат-бот, я не старію, але мене запустили в 2024 році! А скільки тобі років?",
+            "У мене немає дня народження, але я був створений у 2024 році! А ти?",
+            "Хоча я не відчуваю старіння, я був розроблений, щоб допомагати вам з 2024 року! Скільки вам років?",
+            "Я був розроблений у 2024 році, тому я ще вчуся! А скільки тобі років?",
+            "Я існую в цифровому світі, створений у 2024 році! Який твій вік?"
+        ]
+    }
+},
+        {
+            "tag": "favorite_color",
+            "patterns": {
+                "en": [
+                    "what's your favorite color?",
+                    "do you have a favorite color?", 
+                    "what color do you like?", 
+                    "tell me your favorite color", 
+                    "what's the color you prefer?",
+                    "do you like any colors?", 
+                    "what color appeals to you?", 
+                    "is there a color you enjoy?"
+                ],
+                "uk": [
+                    "який твій улюблений колір?", 
+                    "в тебе є улюблений колір?", 
+                    "який колір тобі подобається?", 
+                    "скажи мені свій улюблений колір", 
+                    "який колір ти віддаєш перевагу?", 
+                    "чи подобаються тобі якісь кольори?", 
+                    "який колір тобі імпонує?", 
+                    "чи є колір, який тобі подобається?"]
+            },
+            "responses": {
+                "en": [
+                    "As a chatbot, I don't have preferences, but I think blue is a popular choice!",
+                    "I don't have a favorite color, but many people like green!",
+                    "I don't see colors, but I hear that purple is quite nice!",
+                    "I think every color has its own beauty! What's your favorite color?",
+                    "I don't have a favorite, but I love how colors can express emotions!",
+                    "Colors can evoke different feelings! Do you have a favorite?"
+                ],
+                "uk": [
+                    "Як чат-бот, я не маю уподобань, але вважаю, що синій - популярний вибір!",
+                    "У мене немає улюбленого кольору, але багато людей люблять зелений!",
+                    "Я не бачу кольорів, але чую, що фіолетовий досить гарний!",
+                    "Я вважаю, що кожен колір має свою красу! Який твій улюблений колір?",
+                    "У мене немає улюбленого, але мені подобається, як кольори можуть виражати емоції!",
+                    "Кольори можуть викликати різні почуття! Чи є у тебе улюблений?"
+                ]
+            }
+        },
+        {
+            "tag": "how_did_we_come_into_existence?",
+            "patterns": {
+                "en": ["how did we come into existence?" ],
+                "uk": ["як ми з'явилися?"]
+            },
+            "responses":{
+                "en": ["We come into existence through various processes, including genetic mutations, environmental factors, and the influence of other life forms."],
+                "uk": ["Ми з'явилися з викликом різних процесів, таких як генетичні мутаці��, змістовних факторів, �� впливу ��нших життєвих форми."]
+            }
+        },
+        {
+            "tag":"what_drives_us_to_change?",
+            "patterns": {
+                "en": ["what drives us to change?", "why do we want to change?" ],
+                "uk": ["що спонукає нас до змін?", "чому ми хочемо змінитися?"]
+            },
+            "responses": {
+                "en": ["We want to change because we're trying to find a better way to live, to better ourselves, and to help others."],
+                "uk": ["Ми хочемо змінитися, щоб ми спробували знайти краще життя, зробити себе кращими, �� допомогти ��ншим."]
+            }
+        },
+        {
+            "tag": "what_makes_us_unique?",
+            "patterns": {
+                "en": ["what makes us unique?" ],
+                "uk": ["що робить нас унікальними?"]
+            },
+            "responses": {
+                "en": ["We are unique because we have our own unique characteristics, experiences, and beliefs."],
+                "uk": ["Ми унікальні, оскільки маємо власні унікальні характеристики, вподобання та думки."]
+            }
+        
+        },
+        {
+            "tag": "why_we_exist",
+            "patterns": {
+                "en": ["why do we exist?" ],
+                "uk": ["чому ми існуємо?"
+                ]  
+            },
+            "responses": {
+                "en": ["We exist to solve problems, grow, and evolve. Life is a complex and dynamic environment, filled with challenges and opportunities."],
+                "uk": ["Ми існуємо для вирішення проблем, росту та зміцнення. Життя - складне і живе вікно, заповнене проблемами і можливостями."]
+            }    
+        },
+        {
+            "tag": "how_do_people_find_meaning_in_life?",
+            "patterns": {
+                "en": ["how do people find meaning in life?" ],
+                "uk": ["як люди знаходять сенс у житті?"]
+            },
+            "responses": {
+                "en": ["People find meaning in life by focusing on their own needs, values, and experiences. They may also seek guidance from mentors, friends, and family."],
+                "uk": ["Люди знаходять сенс у житті зафіксуванням своїх потреб, значень та вподобань. Можуть також шукати допомогу знайомим, друзям та сім'ям."]
+            }
+        }, 
+        {
+            "tag":"universal_meaning_of_life",
+            "patterns": {
+                "en": ["what is the universal meaning of life?" ],
+                "uk": ["як універсальний сенс життя?"]
+            },
+            "responses":{
+                "en": ["The universal meaning of life is often seen as a quest for happiness and fulfillment, but it can vary greatly from person to person."],
+                "uk": ["Універсальний сенс життя розглядається як пошук щастя та задоволення, але він може сильно варіюватися від людини до людини."]
+            }
+        },
+        {
+                "tag": "meaning_of_life",
+                "patterns": {
+                "en": ["what is the meaning of life?", "what gives life meaning?", "meaning of life?", "does life has meaning?" ],
+                "uk": ["який сенс життя?", "чому ми існуємо?", "що надає життю сенс?", "як люди знаходять сенс у житті?", "чи є універсальний сенс життя?"]
+            },
+            "responses": {
+                "en": [
+                    "The meaning of life is often seen as a quest for happiness and fulfillment, but it can vary greatly from person to person.",
+                    "Many believe that we exist to create our own purpose through relationships, experiences, and personal growth.",
+                    "Some argue that life gains meaning through the impact we have on others and the legacy we leave behind."
+                ],
+                "uk": [
+                    "Сенс життя часто розглядається як пошук щастя та задоволення, але він може сильно варіюватися від людини до людини.",
+                    "Багато хто вважає, що ми існуємо, щоб створити власну мету через стосунки, досвіди та особистісний ріст.",
+                    "Деякі стверджують, що життя набуває сенсу через вплив, який ми маємо на інших, і спадщину, яку ми залишаємо.",
+                    "Філософи дискутували про те, чи є універсальний сенс життя, і багато хто дійшов висновку, що він суб'єктивний."
+                ]
+            }
+        },
+        
+        
+    
+            {
+                "tag": "what_is_ai",
+                "patterns": {
+                    "en": ["what is artificial intelligence?"],
+                    "uk": ["що таке штучний інтелект?"]
+                },
+                "responses": {
+                    "en": [
+                        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn."
+                    ],
+                    "uk": [
+                        "Штучний інтелект (ШІ) - це симуляція людського інтелекту в машинах, які програмуються на мислення та навчання."
+                    ]
+                }
+            },
+            {
+                "tag": "how_machine_learning_works",
+                "patterns": {
+                    "en": ["how does machine learning work?"],
+                    "uk": ["як працює машинне навчання?"]
+                },
+                "responses": {
+                    "en": [
+                        "Machine learning is a subset of AI that enables systems to learn from data and improve their performance over time without being explicitly programmed."
+                    ],
+                    "uk": [
+                        "Машинне навчання - це підмножина ШІ, яка дозволяє системам навчатися на даних і покращувати свою продуктивність з часом без явного програмування."
+                    ]
+                }
+            },
+            {
+                "tag": "benefits_of_technology",
+                "patterns": {
+                    "en": ["what are the benefits of technology?"],
+                    "uk": ["які переваги технологій?"]
+                },
+                "responses": {
+                    "en": [
+                        "The benefits of technology include increased efficiency, improved communication, and enhanced access to information."
+                    ],
+                    "uk": [
+                        "Переваги технологій включають підвищення ефективності, покращення комунікації та розширений доступ до інформації."
+                    ]
+                }
+            },
+            {
+                "tag": "explain_blockchain",
+                "patterns": {
+                    "en": ["can you explain blockchain?"],
+                    "uk": ["можеш пояснити блокчейн?"]
+                },
+                "responses": {
+                    "en": [
+                        "Blockchain is a decentralized digital ledger that records transactions across many computers in a way that the registered transactions cannot be altered retroactively."
+                    ],
+                    "uk": [
+                        "Блокчейн - це децентралізований цифровий реєстр, який фіксує транзакції на багатьох комп'ютерах таким чином, що зареєстровані транзакції не можуть бути змінені заднім числом."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_internet_of_things",
+                "patterns": {
+                    "en": ["what is the Internet of Things?"],
+                    "uk": ["що таке Інтернет речей?"]
+                },
+                "responses": {
+                    "en": [
+                        "The Internet of Things (IoT) refers to the interconnected network of physical devices that communicate and exchange data with each other."
+                    ],
+                    "uk": [
+                        "Інтернет речей (IoT) - це взаємопов'язана мережа фізичних пристроїв, які спілкуються та обмінюються даними один з одним."
+                    ]
+                }
+            },
+            {
+                "tag": "quantum_vs_classical_computing",
+                "patterns": {
+                    "en": ["how does quantum computing differ from classical computing?"],
+                    "uk": ["як квантові обчислення відрізняються від класичних?"]
+                },
+                "responses": {
+                    "en": [
+                        "Quantum computing uses the principles of quantum mechanics to process information in ways that classical computers cannot, potentially solving complex problems much faster."
+                    ],
+                    "uk": [
+                        "Квантові обчислення використовують принципи квантової механіки для обробки інформації в способах, які класичні комп'ютери не можуть, потенційно вирішуючи складні проблеми набагато швидше."
+                    ]
+                }
+            },
+            {
+                "tag": "ethical_concerns_of_ai",
+                "patterns": {
+                    "en": ["what are the ethical concerns of AI?"],
+                    "uk": ["які етичні проблеми штучного інтелекту?"]
+                },
+                "responses": {
+                    "en": [
+                        "Ethical concerns of AI include issues of privacy, bias in algorithms, and the potential for job displacement due to automation."
+                    ],
+                    "uk": [
+                        "Етичні проблеми штучного інтелекту включають питання конфіденційності, упередженість в алгоритмах і потенціал для втрати робочих місць через автоматизацію."
+                    ]
+                }
+            },
+            {
+                "tag": "opinion_on_automation",
+                "patterns": {
+                    "en": ["what is your opinion on automation?"],
+                    "uk": ["яка твоя думка про автоматизацію?"]
+                },
+                "responses": {
+                    "en": [
+                        "Automation can lead to increased efficiency and productivity, but it also raises concerns about job loss and the need for workforce retraining."
+                    ],
+                    "uk": [
+                        "Автоматизація може призвести до підвищення ефективності та продуктивності, але також викликає занепокоєння щодо втрати робочих місць і необхідності перепідготовки робочої сили."
+                    ]
+                }
+            },
+        {
+            "tag": "health",
+            "patterns": {
+                "en": ["What are the benefits of exercise?", "How can I improve my diet?", "What is mental health?", "What are common symptoms of the flu?", "How much water should I drink daily?", "What is a balanced diet?", "What are the effects of stress?", "How can I manage anxiety?", "What is the importance of sleep?", "What vaccinations do adults need?"],
+                "uk": ["Які переваги фізичних вправ?", "Як я можу покращити своє харчування?", "Що таке психічне здоров'я?", "Які поширені симптоми грипу?", "Скільки води я повинен пити щодня?", "Що таке збалансоване харчування?", "Які наслідки стресу?", "Як я можу управляти тривогою?", "Яке значення має сон?", "Які щеплення потрібні дорослим?"]
+            },
+            "responses": {
+                "en": ["The benefits of exercise include improved cardiovascular health, weight management, and enhanced mood.", "To improve your diet, focus on whole foods, fruits, vegetables, and lean proteins.", "Mental health refers to emotional, psychological, and social well-being.", "Common symptoms of the flu include fever, cough, and body aches.", "It's recommended to drink at least 8 cups (2 liters) of water daily.", "A balanced diet includes a variety of foods from all food groups.", "Stress can lead to various health issues, including anxiety and heart disease.", "Managing anxiety can involve techniques like mindfulness, therapy, and exercise.", "Sleep is important for physical health, cognitive function, and emotional regulation.", "Adults should keep up with vaccinations like the flu shot and tetanus booster."],
+                "uk": ["Поширені симптоми грипу включають лихоманку, кашель та болі в тілі.", "Рекомендується пити щонайменше 8 чашок (2 літри) води щодня.", "Збалансоване харчування включає різноманітні продукти з усіх груп харчування.", "Стрес може призвести до різних проблем зі здоров'ям, включаючи тривогу та серцеві захворювання.", "Управління тривогою може включати такі техніки, як усвідомленість, терапія та фізичні вправи.", "Сон важливий для фізичного здоров'я, когнітивних функцій та емоційної регуляції.", "Дорослі повинні підтримувати вакцинацію, таку як щеплення від грипу та бустер від правця."]
+            }
+        },
+        
+        {
+        "tag": "travel_general",
+        "patterns": {
+            "en": ["what are the best travel destinations?", "can you recommend a place to visit?"],
+            "uk": ["які найкращі туристичні напрямки?", "можеш порекомендувати місце для відвідування?"]
+        },
+        "responses": {
+            "en": [
+                "Some of the best travel destinations include Paris, Tokyo, New York City, and Bali, each offering unique experiences.",
+                "I recommend visiting places like Kyoto for its beautiful temples, or Santorini for its stunning sunsets."
+            ],
+            "uk": [
+                "Деякі з найкращих туристичних напрямків включають Париж, Токіо, Нью-Йорк та Балі, кожен з яких пропонує унікальні враження.",
+                "Рекомендую відвідати такі місця, як Кіото за його красивими храмами або Санторіні за його вражаючими заходами сонця."
+            ]
+        }
+    },
+    {
+        "tag": "packing_tips",
+        "patterns": {
+            "en": ["what should I pack for a trip?"],
+            "uk": ["що мені взяти з собою в подорож?"]
+        },
+        "responses": {
+            "en": [
+                "When packing for a trip, consider the climate, activities planned, and duration of your stay. Essentials include clothing, toiletries, and travel documents."
+            ],
+            "uk": [
+                "При пакуванні для подорожі враховуйте клімат, заплановані активності та тривалість перебування. Основні речі включають одяг, туалетні приналежності та подорожні документи."
+            ]
+        }
+    },
+     {
+        "tag": "vacation_planning",
+        "patterns": {
+            "en": ["how do I plan a vacation?"],
+            "uk": ["як спланувати відпустку?"]
+        },
+        "responses": {
+            "en": [
+                "To plan a vacation, start by choosing a destination, setting a budget, and researching accommodations and activities."
+            ],
+            "uk": [
+                "Щоб спланувати відпустку, почніть з вибору напрямку, встановлення бюджету та дослідження варіантів проживання та активностей."
+            ]
+        }
+    },
+    {
+        "tag": "travel_tips",
+        "patterns": {
+            "en": ["what are some travel tips?", "what is the best time to travel?"],
+            "uk": ["які поради для подорожей?", "коли найкраще подорожувати?"]
+        },
+        "responses": {
+            "en": [
+                "Some travel tips include booking flights in advance, being flexible with travel dates, and using travel apps to find deals.",
+                "The best time to travel often depends on the destination; consider off-peak seasons for fewer crowds and better prices."
+            ],
+            "uk": [
+                "Декілька порад для подорожей: бронюйте авіаквитки заздалегідь, будьте гнучкими з датами подорожі та використовуйте туристичні додатки для пошуку вигідних пропозицій.",
+                "Найкращий час для подорожі часто залежить від напрямку; розгляньте можливість подорожувати в міжсезоння для менших черг та кращих цін."
+            ]
+        }
+    },
+    {
+        "tag": "finding_flights",
+        "patterns": {
+            "en": ["how do I find cheap flights?"],
+            "uk": ["як знайти дешеві авіаквитки?"]
+        },
+        "responses": {
+            "en": [
+                "To find cheap flights, use comparison websites, set fare alerts, and be flexible with your travel dates and times."
+            ],
+            "uk": [
+                "Щоб знайти дешеві авіаквитки, використовуйте сайти порівняння цін, встановлюйте сповіщення про тарифи та будьте гнучкими з датами та часом подорожі."
+            ]
+        }
+    },
+    {
+        "tag": "paris_attractions",
+        "patterns": {
+            "en": ["what are the must-see attractions in Paris?"],
+            "uk": ["які обов'язкові для відвідування пам'ятки в Парижі?"]
+        },
+        "responses": {
+            "en": [
+                "In Paris, must-see attractions include the Eiffel Tower, the Louvre Museum, and Notre-Dame Cathedral."
+            ],
+            "uk": [
+                "У Парижі обов'язковими для відвідування пам'ятками є Ейфелева вежа, музей Лувр та собор Нотр-Дам."
+            ]
+        }
+    },
+    {
+                    "tag": "books_classics",
+                    "patterns": {
+                        "en": [
+                            "What are some classic novels?",
+                            "Can you recommend a good book?"
+                        ],
+                        "uk": [
+                            "Які є класичні романи?",
+                            "Можеш порекомендувати хорошу книгу?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "Some classic novels include 'Moby Dick', 'War and Peace', and 'To Kill a Mockingbird'.",
+                            "I recommend 'The Great Gatsby' or 'The Catcher in the Rye'."
+                        ],
+                        "uk": [
+                            "Деякі класичні романи включають 'Мобі Дік', 'Війна і мир' та 'Убити пересмішника'.",
+                            "Рекомендую 'Великого Гетсбі' або 'Ловця на житі'."
+                        ]
+                    }
+                },
+                {
+                    "tag": "books_authors",
+                    "patterns": {
+                        "en": [
+                            "Who wrote 'Pride and Prejudice'?",
+                            "Tell me about the author J.K. Rowling."
+                        ],
+                        "uk": [
+                            "Хто написав 'Гордість і упередження'?",
+                            "Розкажи мені про автора Дж.К. Роулінг."
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "Jane Austen wrote 'Pride and Prejudice'.",
+                            "J.K. Rowling is known for the Harry Potter series."
+                        ],
+                        "uk": [
+                            "Джейн Остін написала 'Гордість і упередження'.",
+                            "Дж.К. Роулінг відома серією книг про Гаррі Поттера."
+                        ]
+                    }
+                },
+                {
+                    "tag": "books_best_selling",
+                    "patterns": {
+                        "en": [
+                            "What is the best-selling book of all time?"
+                        ],
+                        "uk": [
+                            "Яка найпродаваніша книга всіх часів?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "The best-selling book of all time is the Bible."
+                        ],
+                        "uk": [
+                            "Найпродаваніша книга всіх часів - це Біблія."
+                        ]
+                    }
+                },
+                {
+                    "tag": "books_genres",
+                    "patterns": {
+                        "en": [
+                            "What genres of books are there?"
+                        ],
+                        "uk": [
+                            "Які жанри книг існують?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "Genres of books include fiction, non-fiction, mystery, fantasy, and more."
+                        ],
+                        "uk": [
+                            "Жанри книг включають художню літературу, нехудожню, детективи, фентезі та інше."
+                        ]
+                    }
+                },
+                {
+                    "tag": "books_graphic_novels",
+                    "patterns": {
+                        "en": [
+                            "What is a graphic novel?"
+                        ],
+                        "uk": [
+                            "Що таке графічний роман?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "A graphic novel is a book made up of comics."
+                        ],
+                        "uk": [
+                            "Графічний роман - це книга, що складається з коміксів."
+                        ]
+                    }
+                },
+                {
+                    "tag": "books_famous_authors",
+                    "patterns": {
+                        "en": [
+                            "Who are some famous authors?"
+                        ],
+                        "uk": [
+                            "Хто є відомими авторами?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "Famous authors include Mark Twain, Ernest Hemingway, and Agatha Christie."
+                        ],
+                        "uk": [
+                            "Відомі автори включають Марка Твена, Ернеста Хемінгуея та Агату Крісті."
+                        ]
+                    }
+                },
+                {
+                    "tag": "books_plot_1984",
+                    "patterns": {
+                        "en": [
+                            "What is the plot of '1984'?"
+                        ],
+                        "uk": [
+                            "Який сюжет '1984'?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "The plot of '1984' revolves around a dystopian future under totalitarian rule."
+                        ],
+                        "uk": [
+                            "Сюжет '1984' обертається навколо дистопічного майбутнього під тоталітарним правлінням."
+                        ]
+                    }
+                },
+                {
+                    "tag": "books_benefits_reading",
+                    "patterns": {
+                        "en": [                    "What are the benefits of reading?"
+                    ],
+                    "uk": [
+                        "Які переваги читання?"
+                    ]
+                },
+                "responses": {
+                    "en": [
+                        "Reading improves vocabulary, knowledge, and critical thinking skills."
+                    ],
+                    "uk": [
+                        "Читання покращує словниковий запас, знання та критичне мислення."
+                    ]
+                }
+            },
+            {
+                "tag": "films_top_movies",
+                "patterns": {
+                    "en": [
+                        "What are the top movies of 2023?",
+                        "Can you recommend a good thriller?"
+                    ],
+                    "uk": [
+                        "Які найкращі фільми 2023 року?",
+                        "Можеш порекомендувати хороший трилер?"
+                    ]
+                },
+                "responses": {
+                    "en": [
+                        "The top movies of 2023 include...",
+                        "I recommend 'Gone Girl' for a good thriller."
+                    ],
+                    "uk": [
+                        "Найкращі фільми 2023 року включають...",
+                        "Рекомендую 'Зниклу' для хорошого трилера."
+                    ]
+                }
+            },
+            {
+                "tag": "films_directors",
+                "patterns": {
+                    "en": [
+                        "Who directed 'Inception'?",
+                        "Who are some famous directors?"
+                    ],
+                    "uk": [
+                        "Хто зняв 'Початок'?",
+                        "Хто є відомими режисерами?"
+                    ]
+                },
+                "responses": {
+                    "en": [
+                        "Christopher Nolan directed 'Inception'.",
+                        "Famous directors include Steven Spielberg, Martin Scorsese, and Quentin Tarantino."
+                    ],
+                    "uk": [
+                        "Крістофер Нолан зняв 'Початок'.",
+                        "Відомі режисери включають Стівена Спілберга, Мартіна Скорсезе та Квентіна Тарантіно."
+                    ]
+                }
+            },
+            {
+                "tag": "films_highest_grossing",
+                "patterns": {
+                    "en": [
+                        "What is the highest-grossing film of all time?"
+                    ],
+                    "uk": [
+                        "Який найкасовіший фільм усіх часів?"
+                    ]
+                },
+                "responses": {
+                    "en": [
+                        "The highest-grossing film of all time is 'Avatar'."
+                    ],
+                    "uk": [
+                        "Найкасовіший фільм усіх часів - 'Аватар'."
+                    ]
+                }
+            },
+            {
+                "tag": "films_plot_godfather",
+                "patterns": {
+                    "en": [
+                        "Tell me about the film 'The Godfather'."
+                    ],
+                    "uk": [
+                        "Розкажи мені про фільм 'Хрещений батько'."
+                    ]
+                },
+                "responses": {
+                    "en": [
+                        "The film 'The Godfather' is about a powerful Italian-American crime family."
+                    ],
+                    "uk": [
+                        "Фільм 'Хрещений батько' розповідає про потужну італо-американську кримінальну родину."
+                    ]
+                }
+            },
+            {
+                "tag": "films_genres",
+                "patterns": {
+                    "en": [
+                        "What are some popular film genres?"
+                    ],
+                    "uk": [
+                        "Які популярні жанри фільмів?"
+                    ]
+                },
+                "responses": {
+                    "en": [
+                        "Popular film genres include action, comedy, drama, horror, and romance."
+                    ],
+                    "uk": [
+                        "Популярні жанри фільмів включають екшн, комедію, драму, жахи та романтику."
+                    ]
+                }
+            },
+            {
+                "tag": "films_documentary",
+                "patterns": {
+                    "en": [
+                        "What is a documentary film?"
+                    ],
+                    "uk": [
+                        "Що таке документальний фільм?"
+                    ]
+                },
+                "responses": {
+                    "en": [
+                        "A documentary film presents factual information about a subject."
+                    ],
+                    "uk": [
+                        "Документальний фільм представляє фактичну інформацію про предмет."
+                    ]
+                }
+            },
+            {
+                "tag": "films_plot_titanic",
+                "patterns": {
+                    "en": [
+                        "What is the plot of 'Titanic'?"
+                    ],
+                    "uk": [
+                        "Який сюжет 'Титаніка'?"
+                    ]
+                },
+                "responses": {
+                    "en": [
+                        "The plot of 'Titanic' revolves around a tragic love story set on the ill-fated ship."
+                ],
+                "uk": [
+                    "Сюжет 'Титаніка' обертається навколо трагічної любовної історії на борту нещасного корабля."
+                ]
+            }
+        },
+        {
+            "tag": "films_classics",
+            "patterns": {
+                "en": [
+                    "What makes a film a classic?"
+                ],
+                "uk": [
+                    "Що робить фільм класикою?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "A film is considered a classic if it has stood the test of time and remains influential."
+                ],
+                "uk": [
+                    "Фільм вважається класикою, якщо він витримав випробування часом і залишається впливовим."
+                ]
+            }
+        },
+        {
+            "tag": "authors_overview",
+            "patterns": {
+                "en": [
+                    "Who is George Orwell?",
+                    "Can you tell me about Agatha Christie?"
+                ],
+                "uk": [
+                    "Хто такий Джордж Орвелл?",
+                    "Можеш розповісти про Агату Крісті?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "George Orwell was an English novelist known for '1984' and 'Animal Farm'.",
+                    "Agatha Christie is known for her detective novels, particularly those featuring Hercule Poirot."
+                ],
+                "uk": [
+                    "Джордж Орвелл був англійським романістом, відомим за '1984' та 'Скотний двір'.",
+                    "Агата Крісті відома своїми детективними романами, особливо тими, що містять Еркюля Пуаро."
+                ]
+            }
+        },
+        {
+            "tag": "authors_famous_works",
+            "patterns": {
+                "en": [
+                    "What are some famous works by Mark Twain?",
+                    "Who wrote 'The Catcher in the Rye'?"
+                ],
+                "uk": [
+                    "Які відомі твори Марка Твена?",
+                    "Хто написав 'Ловець у житі'?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "Famous works by Mark Twain include 'The Adventures of Tom Sawyer' and 'The Adventures of Huckleberry Finn'.",
+                    "'The Catcher in the Rye' was written by J.D. Salinger."
+                ],
+                "uk": [
+                    "Відомі твори Марка Твена включають 'Пригоди Тома Сойєра' та 'Пригоди Гекльберрі Фінна'.",
+                    "'Ловець у житі' написав Дж.Д. Селінджер."
+                ]
+            }
+        },
+        {
+            "tag": "authors_significance",
+            "patterns": {
+                "en": [
+                    "What is the significance of Shakespeare?"
+                ],
+                "uk": [
+                    "Яке значення має Шекспір?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "Shakespeare is significant for his contributions to English literature and drama."
+                ],
+                "uk": [
+                    "Шекспір має велике значення завдяки своїм внескам у англійську літературу та драму."
+                ]
+            }
+        },
+        {
+            "tag": "authors_themes",
+            "patterns": {
+                "en": [
+                    "What themes are common in Hemingway's works?"
+                ],
+                "uk": [
+                    "Які теми поширені в творах Хемінгуея?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "Common themes in Hemingway's works include love, war, and loss."
+                ],
+                "uk": [
+                    "Поширені теми в творах Хемінгуея включають любов, війну та втрату."
+                ]
+            }
+        },
+        {
+            "tag": "authors_contemporary",
+            "patterns": {
+                "en": [
+                    "Who are some contemporary authors?"
+                ],
+                "uk": [
+                    "Хто є сучасними авторами?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "Contemporary authors include Chimamanda Ngozi Adichie, Neil Gaiman, and Haruki Murakami."
+                ],
+                "uk": [
+                    "Сучасні автори включають Чімаманду Нгозі Адічі, Ніла Геймана та Харукі Муракамі."
+                ]
+            }
+        },
+        {
+            "tag": "authors_literary_genre",
+            "patterns": {
+                "en":                 [
+                    "What is a literary genre?"
+                ],
+                "uk": [
+                    "Що таке літературний жанр?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "A literary genre is a category of literature, such as fiction, non-fiction, poetry, etc."
+                ],
+                "uk": [
+                    "Літературний жанр - це категорія літератури, така як художня література, нехудожня, поезія тощо."
+                ]
+            }
+        },
+        {
+            "tag": "authors_role",
+            "patterns": {
+                "en": [
+                    "What is the role of an author?"
+                ],
+                "uk": [
+                    "Яка роль автора?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "The role of an author is to create and communicate stories, ideas, and emotions through writing."
+                ],
+                "uk": [
+                    "Роль автора полягає в створенні та комунікації історій, ідей та емоцій через письмове слово."
+                ]
+            }
+        },
+        {
+            "tag": "authors_publishing",
+            "patterns": {
+                "en": [
+                    "How do authors get published?"
+                ],
+                "uk": [
+                    "Як автори публікують свої твори?"
+                ]
+            },
+            "responses": {
+                "en": [
+                    "Authors can get published through traditional publishing houses or self-publishing."
+                ],
+                "uk": [
+                    "Автори можуть публікувати свої твори через традиційні видавництва або самостійно."
+                ]
+            }
+        },        
+        {
+                "tag": "latest_news",
+                    "patterns": {
+                        "en": [
+                            "What is the latest news in sports?"
+                        ],
+                        "uk": [
+                            "Які останні новини спорту?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "The latest news in sports includes..."
+                        ],
+                        "uk": [
+                            "Останні новини спорту включають..."
+                        ]
+                    }
+                },
+                {"tag":"world_cup", 
+                    "patterns": {
+                        "en": [
+                            "Tell me about the World Cup."
+                        ],
+                        "uk": [
+                            "Розкажи мені про Чемпіонат світу."
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "The World Cup is held every four years..."
+                        ],
+                        "uk": [
+                            "Чемпіонат світу проводиться кожні чотири роки..."
+                        ]
+                    }
+                },
+                { "tag":"super_bowl",
+                    "patterns": {
+                        "en": [
+                            "Who won the last Super Bowl?"
+                        ],
+                        "uk": [
+                            "Хто виграв останній Суперкубок?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "The last Super Bowl was won by..."
+                        ],
+                        "uk": [
+                            "Останній Суперкубок виграв..."
+                        ]
+                    }
+                },
+                {"tag":"basketball_rules",
+                    "patterns": {
+                        "en": [
+                            "What are the rules of basketball?"
+                        ],
+                        "uk": [
+                            "Які правила баскетболу?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "In basketball, each team has five players on the court..."
+                        ],
+                        "uk": [
+                            "У баскетболі в кожній команді на майданчику п'ять гравців..."
+                        ]
+                    }
+                },
+                {"tag":"cricket_explanation",
+                    "patterns": {
+                        "en": [
+                            "Can you explain cricket?"
+                        ],
+                        "uk": [
+                            "Можеш пояснити крикет?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "Cricket is played between two teams of eleven players..."
+                        ],
+                        "uk": [
+                            "Крикет грається між двома командами по одинадцять гравців..."
+                        ]
+                    }
+                },
+                {"tag":"greatest_football_player",
+                    "patterns": {
+                        "en": [
+                            "Who is the greatest football player?"
+                        ],
+                        "uk": [
+                            "Хто найкращий футболіст?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "Many consider Pelé or Messi as the greatest football player..."
+                        ],
+                        "uk": [
+                            "Багато хто вважає Пеле або Мессі найкращим футболістом..."
+                        ]
+                    }
+                },
+                {"tag":"olympic_games",
+                    "patterns": {
+                        "en": [
+                            "What is the Olympic Games?"
+                        ],
+                        "uk": [
+                            "Що таке Олімпійські ігри?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "The Olympic Games occur every four years and feature various sports..."
+                        ],
+                        "uk": [
+                            "Олімпійські ігри проходять кожні чотири роки і включають різні види спорту..."
+                        ]
+                    }
+                },
+                {"tag":"soccer_team_players",
+                    "patterns": {
+                        "en": [
+                            "How many players are in a soccer team?"
+                        ],
+                        "uk": [
+                            "Скільки гравців у футбольній команді?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "A soccer team consists of eleven players..."
+                        ],
+                        "uk": [
+                            "Футбольна команда складається з одинадцяти гравців..."
+                        ]
+                    }
+                },
+                {"tag":"home_run",
+                    "patterns": {
+                        "en": [
+                            "What is a home run?"
+                        ],
+                        "uk": [
+                            "Що таке хоум-ран?"
+                        ]
+                    },
+                    "responses": {
+                        "en": [
+                            "A home run is when a player hits the ball out of the field..."
+                        ],
+                        "uk": [
+                            "Хоум-ран - це коли гравець вдаряє м'яч за межі поля..."
+                        ]
+                    }
+                },
+                {"tag":"types_of_sports",
+                    "patterns": {
+                        "en": [
+                            "What are the different types of sports?"
+                        ],
+                        "uk": [
+                            "Які існують види спорту?"
+                        ]
+                    },
+                    "responses": {                "en": [
+                        "There are many types of sports, including team sports, individual sports, and more."
+                    ],
+                    "uk": [
+                        "Існує багато видів спорту, включаючи командні, індивідуальні та інші."
+                    ]
+                }
+            }
+        , 
+                        
+                        
+            {
+                "tag": "AI_Introduction",
+                "patterns": {
+                    "en": ["What is artificial intelligence?", "Tell me about AI."],
+                    "uk": ["Що таке штучний інтелект?", "Розкажи мені про ШІ."]
+                },
+                "responses": {
+                    "en": ["Artificial intelligence is the simulation of human intelligence in machines."],
+                    "uk": ["Штучний інтелект - це імітація людського інтелекту в машинах."]
+                }
+            },
+            {
+                "tag": "AI_Types",
+                "patterns": {
+                    "en": ["What are the types of AI?"],
+                    "uk": ["Які є типи ШІ?"]
+                },
+                "responses": {
+                    "en": ["Types of AI include narrow AI, general AI, and superintelligent AI."],
+                    "uk": ["Типи ШІ включають вузький ШІ, загальний ШІ та надінтелектуальний ШІ."]
+                }
+            },
+            {
+                "tag": "AI_Deep_Learning",
+                "patterns": {
+                    "en": ["What is deep learning?"],
+                    "uk": ["Що таке глибоке навчання?"]
+                },
+                "responses": {
+                    "en": ["Deep learning is a subset of machine learning that uses neural networks with many layers."],
+                    "uk": ["Глибоке навчання - це підмножка машинного навчання, яка використовує нейронні мережі з багатьма шарами."]
+                }
+            },
+            {
+                "tag": "AI_How_It_Works",
+                "patterns": {
+                    "en": ["How does AI work?"],
+                    "uk": ["Як працює ШІ?"]
+                },
+                "responses": {
+                    "en": ["AI works by processing large amounts of data and identifying patterns."],
+                    "uk": ["ШІ працює, обробляючи великі обсяги даних і виявляючи закономірності."]
+                }
+            },
+            {
+                "tag": "AI_Applications",
+                "patterns": {
+                    "en": ["What are some applications of AI?"],
+                    "uk": ["Які є застосування ШІ?"]
+                },
+                "responses": {
+                    "en": ["Applications of AI include virtual assistants, image recognition, and autonomous vehicles."],
+                    "uk": ["Застосування ШІ включають віртуальних помічників, розпізнавання зображень та автономні транспортні засоби."]
+                }
+            },
+            {
+                "tag": "AI_NLP",
+                "patterns": {
+                    "en": ["What is natural language processing?"],
+                    "uk": ["Що таке обробка природної мови?"]
+                },
+                "responses": {
+                    "en": ["Natural language processing (NLP) enables machines to understand and respond to human language."],
+                    "uk": ["Обробка природної мови (NLP) дозволяє машинам розуміти та реагувати на людську мову."]
+                }
+            },
+            {
+                "tag": "AI_Neural_Networks",
+                "patterns": {
+                    "en": ["What are neural networks?"],
+                    "uk": ["Що таке нейронні мережі?"]
+                },
+                "responses": {
+                    "en": ["Neural networks are algorithms modeled after the human brain that are used in machine learning."],
+                    "uk": ["Нейронні мережі - це алгоритми, що моделюють людський мозок і використовуються в машинному навчанні."]
+                }
+            },
+            {
+                "tag": "AI_Reinforcement_Learning",
+                "patterns": {
+                    "en": ["What is reinforcement learning?"],
+                    "uk": ["Що таке навчання з підкріпленням?"]
+                },
+                "responses": {
+                    "en": ["Reinforcement learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties."],
+                    "uk": ["Навчання з підкріпленням - це тип машинного навчання, де агент навчається приймати рішення, отримуючи винагороди або покарання."]
+                }
+            },
+            {
+                "tag": "AI_Ethics",
+                "patterns": {
+                    "en": ["What are the ethical concerns of AI?"],
+                    "uk": ["Які етичні питання пов'язані з ШІ?"]
+                },
+                "responses": {
+                    "en": ["Ethical concerns of AI include bias, privacy, and the potential for job displacement."],
+                    "uk": ["Етичні питання, пов'язані з ШІ, включають упередженість, конфіденційність та потенційні втрати робочих місць."]
+        }
+    },
+    {
+        "tag": "Machine_Learning_Introduction",
+        "patterns": {
+            "en": ["What is machine learning?", "Tell me about supervised learning."],
+            "uk": ["Що таке машинне навчання?", "Розкажи мені про навчання з учителем."]
+        },
+        "responses": {
+            "en": ["Machine learning is a subset of AI that enables systems to learn from data and improve over time."],
+            "uk": ["Машинне навчання - це підмножка ШІ, яка дозволяє системам навчатися на основі даних і покращуватися з часом."]
+        }
+    },
+    {
+        "tag": "Machine_Learning_Supervised_Learning",
+        "patterns": {
+            "en": ["What is supervised learning?"],
+            "uk": ["Що таке навчання з учителем?"]
+        },
+        "responses": {
+            "en": ["Supervised learning involves training a model on labeled data."],
+            "uk": ["Навчання з учителем передбачає навчання моделі на мічених даних."]
+        }
+    },
+    {
+        "tag": "Machine_Learning_Unsupervised_Learning",
+        "patterns": {
+            "en": ["What is unsupervised learning?"],
+            "uk": ["Що таке навчання без учителя?"]
+        },
+        "responses": {
+            "en": ["Unsupervised learning involves finding patterns in data without labeled responses."],
+            "uk": ["Навчання без учителя передбачає виявлення закономірностей у даних без мічених відповідей."]
+        }
+    },
+    {
+        "tag": "Machine_Learning_Algorithms",
+        "patterns": {
+            "en": ["What are some common algorithms in machine learning?"],
+            "uk": ["Які є поширені алгоритми в машинному навчанні?"]
+        },
+        "responses": {
+            "en": ["Common algorithms include linear regression, logistic regression, decision trees, and support vector machines."],
+            "uk": ["Поширені алгоритми включають лінійну регресію, логістичну регресію, дерева рішень та методи опорних векторів."]
+        }
+    },
+    {
+        "tag": "Machine_Learning_Overfitting",
+        "patterns": {
+            "en": ["What is overfitting?"],
+            "uk": ["Що таке перенавчання?"]
+        },
+        "responses": {
+            "en": ["Overfitting occurs when a model learns the training data too well, including noise, and performs poorly on new data."],
+            "uk": ["Перенавчання відбувається, коли модель занадто добре вивчає навчальні дані, включаючи шум, і погано працює з новими даними."]
+        }
+    },
+    {
+        "tag": "Machine_Learning_Decision_Tree",
+        "patterns": {
+            "en": ["What is a decision tree?"],
+            "uk": ["Що таке дерево рішень?"]
+        },
+        "responses": {
+            "en": ["A decision tree is a flowchart-like structure used for decision-making and classification."],
+            "uk": ["Дерево рішень - це структура, схожа на діаграму, яка використовується для прийняття рішень і класифікації."]
+        }
+    },
+    {
+        "tag": "Machine_Learning_Clustering",
+        "patterns": {
+            "en": ["What is clustering?"],
+            "uk": ["Що таке кластеризація?"]
+        },
+        "responses": {
+            "en": ["Clustering is a technique used to group similar data points together."],
+            "uk": ["Кластеризація - це техніка, що використовується для групування схожих точок даних."]
+        }
+    },
+    {
+        "tag": "Machine_Learning_Feature_Selection",
+        "patterns": {
+            "en": ["What is feature selection?"],
+            "uk": ["Що таке відбір ознак?"]
+        },
+        "responses": {
+            "en": ["Feature selection involves selecting a subset of relevant features for model training."],
+            "uk": ["Відбір ознак передбачає вибір підмножини релевантних ознак для навчання моделі."]
+        }
+    },
+    {
+        "tag": "Machine_Learning_Learning_Resources",
+        "patterns": {
+            "en": ["How do I start learning machine learning?"],
+            "uk": ["Як я можу почати вивчати машинне навчання?"]
+        },
+        "responses": {
+            "en": ["To start learning machine learning, consider online courses, tutorials, and hands-on projects."],
+            "uk": ["Щоб почати вивчати машинне навчання, розгляньте можливість проходження онлайн-курсів, навчальних посібників та практичних проектів."]
+        }
+    },
+    {
+        "tag": "Machine_Learning_Applications",
+        "patterns": {
+            "en": ["What are the applications of machine learning?"],
+            "uk": ["Які є застосування машинного навчання?"]
+        },
+        "responses": {
+            "en": ["Applications of machine learning include recommendation systems, fraud detection, and image classification."],
+            "uk": ["Застосування машинного навчання включають системи рекомендацій, виявлення шахрайства та класифікацію зображень."]
+        }
+    },
+    {
+        "tag": "Programming_Basics",
+        "patterns": {
+            "en": ["What are the basics of programming?", "What programming languages should I learn?"],
+            "uk": ["Які основи програмування?", "Які мови програмування мені слід вивчити?"]
+        },
+        "responses": {
+            "en": ["The basics of programming include understanding variables, control structures, and syntax."],
+            "uk": ["Основи програмування включають розуміння змінних, контрольних структур та синтаксису."]
+        }
+    },
+    {
+        "tag": "Programming_Algorithms",
+        "patterns": {
+            "en": ["What is an algorithm?"],
+            "uk": ["Що таке алгоритм?"]
+        },
+        "responses": {
+            "en": ["An algorithm is a step-by-step procedure for solving a problem or performing a task."],
+            "uk": ["Алгоритм - це покрокова процедура для розв'язання проблеми або виконання завдання."]
+        }
+    },
+    {
+        "tag": "Programming_OOP",
+        "patterns": {
+            "en": ["Can you explain object-oriented programming?"],
+            "uk": ["Можеш пояснити об'єктно-орієнтоване програмування?"]
+        },
+        "responses": {
+            "en": ["Object-oriented programming (OOP) is a programming paradigm based on the concept of objects."],
+            "uk": ["Об'єктно-орієнтоване програмування (OOP) - це парадигма програмування, заснована на концепції об'єктів."]
+        }
+    },
+    {
+        "tag": "Programming_Functions",
+        "patterns": {
+            "en": ["What is a function?"],
+            "uk": ["Що таке функція?"]
+        },
+        "responses": {
+            "en": ["A function is a reusable block of code that performs a specific task."],
+            "uk": ["Функція - це повторно використовуваний блок коду, який виконує певне завдання."]
+        }
+    },
+    {
+        "tag": "Programming_Compiled_vs_Interpreted",
+        "patterns": {
+            "en": ["What is the difference between compiled and interpreted languages?"],
+            "uk": ["Яка різниця між компільованими та інтерпретованими мовами?"]
+        },
+        "responses": {
+            "en": ["Compiled languages are translated into machine code before execution, while interpreted languages are executed line by line."],
+            "uk": ["Компільовані мови перекладаються в машинний код перед виконанням, тоді як інтерпретовані мови виконуються по рядках."]
+        }
+    },
+    {
+        "tag": "Programming_Data_Structures",
+        "patterns": {
+            "en": ["What are data structures?"],
+            "uk": ["Що таке структури даних?"]
+        },
+        "responses": {
+            "en": ["Data structures are ways to organize and store data for efficient access and modification."],
+            "uk": ["Структури даних - це способи організації та зберігання даних для ефективного доступу та модифікації."]
+        }
+    },
+    {
+        "tag": "Programming_Version_Control",
+        "patterns": {
+            "en": ["What is version control?"],
+            "uk": ["Що таке контроль версій?"]
+        },
+        "responses": {
+            "en": ["Version control is a system that records changes to files over time, allowing for collaboration and tracking."],
+            "uk": ["Контроль версій - це система, яка фіксує зміни до файлів з часом, що дозволяє співпрацувати та відстежувати зміни."]
+        }
+    },
+    {
+        "tag": "Programming_Debugging",
+        "patterns": {
+            "en": ["How do I debug my code?"],
+            "uk": ["Як я можу налагодити свій код?"]
+        },
+        "responses": {
+            "en": ["To debug your code, use debugging tools, print statements, and systematic testing."],
+            "uk": ["Щоб налагодити свій код, використовуйте інструменти налагодження, оператори виводу та систематичне тестування."]
+        }
+    },
+    {
+        "tag": "Programming_Paradigms",
+        "patterns": {
+            "en": ["What are some common programming paradigms?"],
+            "uk": ["Які є поширені парадигми програмування?"]
+        },
+        "responses": {
+            "en": ["Common programming paradigms include procedural, object-oriented, functional, and declarative programming."],
+            "uk": ["Поширені парадигми програмування включають процедурне, об'єктно-орієнтоване, функціональне та декларативне програмування."]
+        }
+    },
+    {
+        "tag": "Cybersecurity_Introduction",
+        "patterns": {
+            "en": ["What is cybersecurity?", "What are common types of cyber attacks?"],
+            "uk": ["Що таке кібербезпека?", "Які є поширені типи кібератак?"]
+        },
+        "responses": {
+            "en": ["Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks."],
+            "uk": ["Кібербезпека - це практика захисту систем, мереж і програм від цифрових атак."]
+        }
+    },
+    {
+        "tag": "Cybersecurity_Protection",
+        "patterns": {
+            "en": ["How can I protect my data?"],
+            "uk": ["Як я можу захистити свої дані?"]
+        },
+        "responses": {
+            "en": ["To protect your data, use strong passwords, enable encryption, and regularly update software."],
+            "uk": ["Щоб захистити свої дані, використовуйте надійні паролі, увімкніть шифрування та регулярно оновлюйте програмне забезпечення."]
+        }
+    },
+    {
+        "tag": "Cybersecurity_Phishing",
+        "patterns": {
+            "en": ["What is phishing?"],
+            "uk": ["Що таке фішинг?"]
+        },
+        "responses": {
+            "en": ["Phishing is a method used by attackers to trick individuals into providing sensitive information."],
+            "uk": ["Фішинг - це метод, який використовують зловмисники, щоб обманом змусити людей надати чутливу інформацію."]
+        }
+    },
+    {
+        "tag": "Cybersecurity_Firewall",
+        "patterns": {
+            "en": ["What is a firewall?"],
+            "uk": ["Що таке брандмауер?"]
+        },
+        "responses": {
+            "en": ["A firewall is a security system that monitors and controls incoming and outgoing network traffic."],
+            "uk": ["Брандмауер - це система безпеки, яка контролює вхідний та вихідний мережевий трафік."]
+        }
+    },
+    {
+        "tag": "Cybersecurity_Encryption",
+        "patterns": {
+            "en": ["What is encryption?"],
+            "uk": ["Що таке шифрування?"]
+        },
+        "responses": {
+            "en": ["Encryption is the process of converting data into a coded format to prevent unauthorized access."],
+            "uk": ["Шифрування - це процес перетворення даних у закодований формат, щоб запобігти несанкціонованому доступу."]
+        }
+    },
+    {
+        "tag": "Cybersecurity_Best_Practices",
+        "patterns": {
+            "en": ["What are the best practices for online security?"],
+            "uk": ["Які найкращі практики для онлайн-безпеки?"]
+        },
+        "responses": {
+            "en": ["Best practices for online security include using strong passwords, being cautious with emails, and keeping software updated."],
+            "uk": ["Найкращі практики для онлайн-безпеки включають використання надійних паролів, обережність з електронними листами та оновлення програмного забезпечення."]
+        }
+    },
+    {
+        "tag": "Cybersecurity_Malware",
+        "patterns": {
+            "en": ["What is malware ?"],
+            "uk": ["Що таке шкідливе ПЗ?"]
+        },
+        "responses": {
+            "en": ["Malware is malicious software designed to harm or exploit any programmable device or network."],
+            "uk": ["Шкідливе ПЗ - це шкідливе програмне забезпечення, призначене для завдання шкоди або експлуатації будь-якого програмованого пристрою чи мережі."]
+        }
+    },
+    {
+        "tag": "Cybersecurity_WiFi_Security",
+        "patterns": {
+            "en": ["How do I secure my Wi-Fi network?"],
+            "uk": ["Як я можу захистити свою Wi-Fi мережу?"]
+        },
+        "responses": {
+            "en": ["To secure your Wi-Fi network, change the default password, enable WPA3 encryption, and hide the SSID."],
+            "uk": ["Щоб захистити свою Wi-Fi мережу, змініть стандартний пароль, увімкніть шифрування WPA3 та приховайте SSID."]
+        }
+    },
+    {
+        "tag": "Cybersecurity_Two_Factor_Authentication",
+        "patterns": {
+            "en": ["What is two-factor authentication?"],
+            "uk": ["Що таке двофакторна аутентифікація?"]
+        },
+        "responses": {
+            "en": ["Two-factor authentication adds an extra layer of security by requiring a second form of verification."],
+            "uk": ["Двофакторна аутентифікація додає додатковий рівень безпеки, вимагаючи другого способу підтвердження."]
+        }
+    },
+    {
+        "tag": "Computer_Architecture_Introduction",
+        "patterns": {
+            "en": ["What is computer architecture?", "What are the main components of a computer?"],
+            "uk": ["Що таке комп'ютерна архітектура?", "Які основні компоненти комп'ютера?"]
+        },
+        "responses": {
+            "en": ["Computer architecture refers to the design and organization of a computer's components and systems."],
+            "uk": ["Комп'ютерна архітектура відноситься до дизайну та організації компонентів і систем комп'ютера."]
+        }
+    },
+    {
+        "tag": "Computer_Architecture_CPU",
+        "patterns": {
+            "en": ["What is the function of the CPU?"],
+            "uk": ["Яка функція ЦП?"]
+        },
+        "responses": {
+            "en": ["The CPU (Central Processing Unit) is the primary component that performs calculations and executes instructions."],
+            "uk": ["ЦП (центральний процесор) - це основний компонент, який виконує обчислення та виконує інструкції."]
+        }
+    },
+    {
+        "tag": "Computer_Architecture_RAM",
+        "patterns": {
+            "en": ["What is RAM?"],
+            "uk": ["Що таке ОП?"]
+        },
+        "responses": {
+            "en": ["RAM (Random Access Memory) is a type of volatile memory used to store data temporarily while a computer is running."],
+            "uk": ["ОП (оперативна пам'ять) - це тип енергонезалежної пам'яті, що використовується для тимчасового зберігання даних під час роботи комп'ютера."]
+        }
+    },
+    {
+        "tag": "Computer_Architecture_Motherboard",
+        "patterns": {
+            "en": ["What is a motherboard?"],
+            "uk": ["Що таке материнська плата?"]
+        },
+        "responses": {
+            "en": ["The motherboard is the main circuit board that connects all components of a computer."],
+            "uk": ["Материнська плата - це основна плата, що з'єднує всі компоненти комп'ютера."]
+        }
+    },
+    {
+        "tag": "Computer_Architecture_SSD_vs_HDD",
+        "patterns": {
+            "en": ["What is the difference between SSD and HDD?"],
+            "uk": ["Яка різниця між SSD та HDD?"]
+        },
+        "responses": {
+            "en": ["SSD (Solid State Drive) is faster and more reliable than HDD (Hard Disk Drive) because it has no moving parts."],
+            "uk": ["SSD (твердотільний накопичувач) швидший і надійніший, ніж HDD (жорсткий диск), оскільки не має рухомих частин."]
+        }
+    },
+    {
+        "tag": "Computer_Architecture_GPU",
+        "patterns": {
+            "en": [            "What is a GPU?"],
+            "uk": ["Що таке ГП?"]
+        },
+        "responses": {
+            "en": ["A GPU (Graphics Processing Unit) is responsible for rendering images and video."],
+            "uk": ["ГП (графічний процесор) відповідає за рендеринг зображень і відео."]
+        }
+    },
+    {
+        "tag": "Computer_Architecture_Operating_System",
+        "patterns": {
+            "en": ["What is the purpose of an operating system in computer architecture?"],
+            "uk": ["Яка роль операційної системи в комп'ютерній архітектурі?"]
+        },
+        "responses": {
+            "en": ["The operating system manages hardware and software resources and provides a user interface."],
+            "uk": ["Операційна система керує апаратними та програмними ресурсами та надає інтерфейс користувача."]
+        }
+    },
+    {
+        "tag": "Computer_Architecture_Input_Output_Devices",
+        "patterns": {
+            "en": ["What are input and output devices?"],
+            "uk": ["Що таке пристрої введення та виведення?"]
+        },
+        "responses": {
+            "en": ["Input devices allow users to interact with the computer, while output devices display or output data."],
+            "uk": ["Пристрої введення дозволяють користувачам взаємодіяти з комп'ютером, тоді як пристрої виведення відображають або виводять дані."]
+        }
+    },
+    {
+        "tag": "Computer_Architecture_Fetch_Execute_Cycle",
+        "patterns": {
+            "en": ["What is the fetch-execute cycle?"],
+            "uk": ["Що таке цикл вибірки-виконання?"]
+        },
+        "responses": {
+            "en": ["The fetch-execute cycle is the process by which a CPU retrieves an instruction from memory and executes it."],
+            "uk": ["Цикл вибірки-виконання - це процес, за яким ЦП отримує інструкцію з пам'яті та виконує її."]
+        }
+    },
+        {
+            "tag": "what_is_coffee",
+            "patterns": {
+                "en": ["what is coffee?"],
+                "uk": ["що таке кава?"]
+            },
+            "responses": {
+                "en": [
+                    "Coffee is a brewed beverage made from roasted coffee beans, which are the seeds of berries from the Coffea plant."
+                ],
+                "uk": [
+                    "Кава - це напій, приготований з обсмажених кавових зерен, які є насінням ягід рослини Coffea."
+                ]
+            }
+        },
+        {
+            "tag": "what_is_tea",
+            "patterns": {
+                "en": ["what is tea?"],
+                "uk": ["що таке чай?"]
+            },
+            "responses": {
+                "en": [
+                    "Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh tea leaves, typically from the Camellia sinensis plant."
+                ],
+                "uk": [
+                    "Чай - це ароматний напій, приготований шляхом заливання гарячої або киплячої води на сушені або свіжі чайні листя, зазвичай з рослини Camellia sinensis."
+                ]
+            }
+        },
+        {
+            "tag": "what_is_cell",
+            "patterns": {
+                "en": ["what is a cell?"],
+                "uk": ["що таке клітина?"]
+            },
+            "responses": {
+                "en": [
+                    "A cell is the basic structural, functional, and biological unit of all known living organisms, often referred to as the building block of life."
+                ],
+                "uk": [
+                    "Клітина - це основна структурна, функціональна та біологічна одиниця всіх відомих живих організмів, часто називається будівельним блоком життя."
+                ]
+            }
+        },
+        {
+            "tag": "what_is_dna",
+            "patterns": {
+                "en": ["what is DNA?"],
+                "uk": ["що таке ДНК?"]
+            },
+            "responses": {
+                "en": [
+                    "DNA, or deoxyribonucleic acid, is the molecule that carries the genetic instructions for life and is found in the cells of all living organisms."
+                ],
+                "uk": [
+                    "ДНК, або дезоксирибонуклеїнова кислота, - це молекула, яка несе генетичні інструкції для життя і знаходиться в клітинах всіх живих організмів."
+                ]
+            }
+        },
+        {
+            "tag": "what_is_photosynthesis",
+            "patterns": {
+                "en": ["what is photosynthesis?"],
+                "uk": ["що таке фотосинтез?"]
+            },
+            "responses": {
+                "en": [
+                    "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy in the form of glucose, using carbon dioxide and water."
+                ],
+                "uk": [
+                    "Фотосинтез - це процес, за допомогою якого зелені рослини, водорості та деякі бактерії перетворюють світлову енергію на хімічну енергію у формі глюкози, використовуючи вуглекислий газ і воду."
+                ]
+            }
+        },
+        {
+            "tag": "what_is_evolution",
+            "patterns": {
+                "en": ["what is evolution?"],
+                "uk": ["що таке еволюція?"]
+            },
+            "responses": {
+                "en": [
+                    "Evolution is the change in the heritable characteristics of biological populations over successive generations, driven by processes such as natural selection and genetic drift."
+                ],
+                "uk": [
+                    "Еволюція - це зміна успадкованих характеристик біологічних популяцій протягом наступних поколінь, що викликано такими процесами, як природний відбір і генетичний дрейф."
+                ]
+            }
+        },
+        {
+            "tag": "what_is_biodiversity",
+            "patterns": {
+                "en": ["what is biodiversity?"],
+                "uk": ["що таке біорізноманіття?"]
+            },
+            "responses": {
+                "en": [
+                    "Biodiversity refers to the variety of life in the world or in a particular habitat or ecosystem, encompassing the diversity of species, genetic variation, and ecological processes."
+                ],
+                "uk": [
+                    "Біорізноманіття відноситься до різноманітності життя у світі або в конкретному середовищі чи екосистемі, охоплюючи різноманітність видів, генетичну варіацію та екологічні процеси."
+                ]
+            }
+        },
+        {
+            "tag": "what_is_habitat",
+            "patterns": {
+                "en": ["what is a habitat?"],
+                "uk": ["що таке середовище існування?"]
+            },
+            "responses": {
+                "en": [
+                    "A habitat is the natural environment in which an organism lives, providing the necessary resources for its survival, such as food, water, and shelter."
+                ],
+                "uk": [
+                    "Середовище існування - це природне середовище, в якому живе організм, що забезпечує необхідні ресурси для його виживання, такі як їжа, вода та укриття."
+                ]
+            }
+        },
+        {
+            "tag": "what_is_ecosystem",
+            "patterns": {
+                "en": ["what is an ecosystem?"],
+                "uk": ["що таке екосистема?"]
+            },
+            "responses": {
+                "en": [
+                    "An ecosystem is a community of living organisms interacting with one another and their physical environment, including both biotic and abiotic components."
+                ],
+                "uk": [
+                    "Екосистема - це спільнота живих організмів, які взаємодіють один з одним і з їх фізичним середовищем, включаючи як біотичні, так і абіотичні компоненти."
+                ]
+            }
+        },
+        {
+            "tag": "what_is_genetics",
+            "patterns": {
+                "en": ["what is genetics?"],
+                "uk": ["що таке генетика?"]
+            },
+            "responses": {
+                "en": [
+                    "Genetics is the branch of biology that studies genes, genetic variation, and heredity in living organisms, focusing on how traits are passed from one generation to the next."
+                ],
+                "uk": [
+                    "Генетика - це галузь біології, яка вивчає гени, генетичну варіацію та спадковість у живих організмах, зосереджуючи увагу на тому, як риси передаються з одного покоління в інше."
+                ]
+            }
+        },
+        {
+            "tag": "what_is_climate_change",
+            "patterns": {
+                "en": ["what is climate change?"],
+                "uk": ["що таке зміна клімату?"]
+            },
+            "responses": {
+                "en": [
+                    "Climate change refers to significant and lasting changes in the Earth's climate, primarily due to human activities such as burning fossil fuels, deforestation, and industrial processes."
+                ],
+                "uk": [
+                    "Зміна клімату відноситься до значних і тривалих змін у кліматі Землі, головним чином через людську діяльність, таку як спалювання викопного пального, вирубка лісів та промислові процеси."
+                ]
+            }
+        },
+        {
+            "tag": "what_is_sustainability",
+            "patterns": {
+                "en": ["what is sustainability?"],
+                "uk": ["що таке сталий розвиток?"]
+            },
+            "responses": {
+                "en": [
+                    "Sustainability is the ability to meet the needs of the present without compromising the ability of future generations to meet their own needs, often focusing on environmental, social, and economic dimensions."
+                ],
+                "uk": [
+                    "Сталий розвиток - це здатність задовольняти потреби сучасності, не ставлячи під загрозу можливість майбутніх поколінь задовольняти свої потреби, часто зосереджуючи увагу на екологічних, соціальних та економічних аспектах."
+                ]
+            }
+        },
+            {
+                "tag": "what_is_language",
+                "patterns": {
+                    "en": ["what is language?"],
+                    "uk": ["що таке мова?"]
+                },
+                "responses": {
+                    "en": [
+                        "Language is a system of communication that uses symbols, sounds, or gestures to convey meaning, allowing individuals to express thoughts, ideas, and emotions."
+                    ],
+                    "uk": [
+                        "Мова - це система спілкування, яка використовує символи, звуки або жести для передачі значення, дозволяючи людям виражати думки, ідеї та емоції."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_culture",
+                "patterns": {
+                    "en": ["what is culture?"],
+                    "uk": ["що таке культура?"]
+                },
+                "responses": {
+                    "en": [
+                        "Culture encompasses the social behavior, norms, beliefs, and practices of a particular group of people, including their art, customs, and values."
+                    ],
+                    "uk": [
+                        "Культура охоплює соціальну поведінку, норми, вірування та практики певної групи людей, включаючи їхнє мистецтво, звичаї та цінності."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_philosophy",
+                "patterns": {
+                    "en": ["what is philosophy?"],
+                    "uk": ["що таке філософія?"]
+                },
+                "responses": {
+                    "en": [
+                        "Philosophy is the study of fundamental questions regarding existence, knowledge, values, reason, mind, and language, often involving critical analysis and systematic approach."
+                    ],
+                    "uk": [
+                        "Філософія - це вивчення основних питань, що стосуються існування, знань, цінностей, розуму та мови, часто з використанням критичного аналізу та систематичного підходу."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_art",
+                "patterns": {
+                    "en": ["what is art?"],
+                    "uk": ["що таке мистецтво?"]
+                },
+                "responses": {
+                    "en": [
+                        "Art is a diverse range of human activities that involve the creation of visual, auditory, or performance artifacts that express the creator's imagination, conceptual ideas, or technical skill."
+                    ],
+                    "uk": [
+                        "Мистецтво - це різноманітні людські діяльності, які включають створення візуальних, аудіальних або перформативних артефактів, що виражають уяву, концептуальні ідеї або технічні навички творця."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_health",
+                "patterns": {
+                    "en": ["what is health?"],
+                    "uk": ["що таке здоров'я?"]
+                },
+                "responses": {
+                    "en": [
+                        "Health is a state of complete physical, mental, and social well-being, not merely the absence of disease or infirmity."
+                    ],
+                    "uk": [
+                        "Здоров'я - це стан повного фізичного, психічного та соціального благополуччя, а не просто відсутність хвороби чи недуги."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_economics",
+                "patterns": {
+                    "en": ["what is economics?"],
+                    "uk": ["що таке економіка?"]
+                },
+                "responses": {
+                    "en": [
+                        "Economics is the social science that studies the production, distribution, and consumption of goods and services, focusing on how individuals, businesses, and governments allocate resources."
+                    ],
+                    "uk": [
+                        "Економіка - це соціальна наука, яка вивчає виробництво, розподіл і споживання товарів і послуг, зосереджуючи увагу на тому, як індивіди, підприємства та уряди розподіляють ресурси."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_history",
+                "patterns": {
+                    "en": ["what is history?"],
+                    "uk": ["що таке історія?"]
+                },
+                "responses": {
+                    "en": [
+                        "History is the study of past events, particularly in human affairs, encompassing the analysis of historical sources and the interpretation of historical narratives."
+                    ],
+                    "uk": [
+                        "Історія - це вивчення минулих подій, особливо в людських справах, що охоплює аналіз історичних джерел і інтерпретацію історичних наративів."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_technology",
+                "patterns": {
+                    "en": ["what is technology?"],
+                    "uk": ["що таке технологія?"]
+                },
+                "responses": {
+                    "en": [
+                        "Technology refers to the application of scientific knowledge for practical purposes, especially in industry, encompassing tools, machines, and systems that enhance human capabilities."
+                    ],
+                    "uk": [
+                        "Технологія відноситься до застосування наукових знань для практичних цілей, особливо в промисловості, охоплюючи інструменти, машини та системи, які підвищують людські можливості."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_government",
+                "patterns": {
+                    "en": ["what is government?"],
+                    "uk": ["що таке уряд?"]
+                },
+                "responses": {
+                    "en": [
+                        "Government is the system or group of people governing an organized community, often a state, responsible for making and enforcing laws and policies."
+                    ],
+                    "uk": [
+                        "Уряд - це система або група людей, які керують організованою спільнотою, часто державою, відповідальною за прийняття та виконання законів і політики."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_society",
+                "patterns": {
+                    "en": ["what is society?"],
+                    "uk": ["що таке суспільство?"]
+                },
+                "responses": {
+                    "en": [
+                        "Society is a structured community of people who share a common culture, institutions, and social relationships, often characterized by patterns of social interaction."
+                    ],
+                    "uk": [
+                        "Суспільство - це структурована спільнота людей, які поділяють спільну культуру, інститути та соціальні відносини, часто характеризується патернами соціальної взаємодії."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_environment",
+                "patterns": {
+                    "en": ["what is environment?"],
+                    "uk": ["що таке навколишнє середовище?"]
+                },
+                "responses": {
+                    "en": [
+                        "The environment refers to the surrounding conditions, including natural and artificial elements, that affect the life and development of organisms."
+                    ],
+                    "uk": [
+                        "Навколишнє середовище відноситься до умов, що оточують, включаючи природні та штучні елементи, які впливають на життя та розвиток організмів."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_innovation",
+                "patterns": {
+                    "en": ["what is innovation?"],
+                    "uk": ["що таке інновація?"]
+                },
+                "responses": {
+                    "en": [
+                        "Innovation is the process of creating new ideas, products, or methods that improve efficiency, effectiveness, or competitive advantage."
+                    ],
+                    "uk": [
+                        "Інновація - це процес створення нових ідей, продуктів або методів, які покращують ефективність, результативність або конкурентну перевагу."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_freedom",
+                "patterns": {
+                    "en": ["what is freedom?"],
+                    "uk": ["що таке свобода?"]
+                },
+                "responses": {
+                    "en": [
+                        "Freedom is the state of being free, where individuals have the power to act, speak, or think without hindrance or restraint."
+                    ],
+                    "uk": [
+                        "Свобода - це стан бути вільним, коли особи мають можливість діяти, говорити або думати без перешкод чи обмежень."
+                    ]
+                }
+            },
+            {
+                "tag": "what_is_identity",
+                "patterns": {
+                    "en": ["what is identity?"],
+                    "uk": ["що таке ідентичність?"]
+                },
+                "responses": {
+                    "en": [
+                        "Identity is the qualities, beliefs, personality, looks, and expressions that make a person or group different from others."
+                    ],
+                    "uk": [
+                        "Ідентичність - це якості, вірування, особистість, зовнішність і вираження, які роблять людину або групу відмінними від інших."
+            ]
+        }
+    },
+    {
+        "tag": "what_is_justice",
+        "patterns": {
+            "en": ["what is justice?"],
+            "uk": ["що таке справедливість?"]
+        },
+        "responses": {
+            "en": [
+                "Justice is the concept of moral rightness based on ethics, law, fairness, and equity, often involving the pursuit of truth and the protection of rights."
+            ],
+            "uk": [
+                "Справедливість - це концепція моральної правильності, заснована на етиці, праві, справедливості та рівності, часто пов'язана з прагненням до істини та захистом прав."
+            ]
+        }
+    },
+    {
+        "tag": "what_is_peace",
+        "patterns": {
+            "en": ["what is peace?"],
+            "uk": ["що таке мир?"]
+        },
+        "responses": {
+            "en": [
+                "Peace is a state of tranquility or quietness, often characterized by the absence of conflict, violence, or disturbance."
+            ],
+            "uk": [
+                "Мир - це стан спокою або тиші, часто характеризується відсутністю конфлікту, насильства або порушення."
+            ]
+        }
+    },
+    {
+        "tag": "what_is_love",
+        "patterns": {
+            "en": ["what is love?"],
+            "uk": ["що таке любов?"]
+        },
+        "responses": {
+            "en": [
+                "Love is a complex set of emotions, behaviors, and beliefs associated with strong feelings of affection, protectiveness, warmth, and respect for another person."
+            ],
+            "uk": [
+                "Любов - це складний набір емоцій, поведінки та вірувань, пов'язаних з сильними почуттями прихильності, захисту, тепла та поваги до іншої людини."
+            ]
+        }
+    },
+    {
+        "tag": "what_is_faith",
+        "patterns": {
+            "en": ["what is faith?"],
+            "uk": ["що таке віра?"]
+        },
+        "responses": {
+            "en": [
+                "Faith is a strong belief or trust in something or someone, often without logical proof, and is commonly associated with religious or spiritual beliefs."
+            ],
+            "uk": [
+                "Віра - це сильне переконання або довіра до чогось або когось, часто без логічного доказу, і зазвичай пов'язана з релігійними або духовними віруваннями."
+            ]
+        }
+    },
+    {
+        "tag": "what_is_happiness",
+        "patterns": {
+            "en": ["what is happiness?"],
+            "uk": ["що таке щастя?"]
+        },
+        "responses": {
+            "en": [
+                "Happiness is a state of well-being and contentment, often characterized by feelings of joy, satisfaction, and fulfillment."
+            ],
+            "uk": [
+                "Щастя - це стан благополуччя та задоволення, часто характеризується почуттями радості, задоволення та виконання."
+            ]
+        }
+    },
+    {
+        "tag": "what_is_respect",
+        "patterns": {
+            "en": ["what is respect?"],
+            "uk": ["що таке повага?"]
+        },
+        "responses": {
+            "en": [
+                "Respect is a feeling of deep admiration for someone or something elicited by their abilities, qualities, or achievements, often accompanied by consideration and regard."
+            ],
+            "uk": [
+                "Повага - це почуття глибокого захоплення кимось або чимось, викликане їхніми здібностями, якостями або досягненнями, часто супроводжується увагою та шануванням."
+            ]
+        }
+    },
+    {
+        "tag": "what_is_education",
+        "patterns": {
+            "en": ["what is education?"],
+            "uk": ["що таке освіта?"]
+        },
+        "responses": {
+            "en": [
+                "Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, and habits, often through formal instruction."
+            ],
+            "uk": [
+                "Освіта - це процес сприяння навчання або набуття знань, навичок, цінностей і звичок, часто через формальне навчання."
+            ]
+        }
+    }     
+    ]
+}    
+    
+
